@@ -1,4 +1,6 @@
-'use client';
+const fs = require('fs');
+
+const pageCode = `
 import { UserCheck, FileText, Send } from 'lucide-react';
 
 export default function MembershipPage() {
@@ -122,3 +124,7 @@ export default function MembershipPage() {
     </div>
   );
 }
+`;
+
+fs.writeFileSync('app/(public)/membership/page.jsx', pageCode.trim());
+console.log('Membership page updated!');
