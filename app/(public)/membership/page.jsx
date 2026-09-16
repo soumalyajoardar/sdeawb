@@ -1,15 +1,23 @@
-export default function ComingSoonPage() {
+import { UserCheck } from 'lucide-react';
+
+export default function MembershipPage() {
   return (
-    <div className="min-h-[60vh] flex flex-col items-center justify-center p-8 text-center">
-      <div className="w-20 h-20 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center mb-6 shadow-sm">
-        <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
+    <div className="max-w-3xl mx-auto px-4 sm:px-8 py-12">
+      <div className="text-center mb-10">
+        <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
+          <UserCheck className="w-8 h-8 text-amber-600" />
+        </div>
+        <h1 className="text-3xl sm:text-5xl font-black text-brand-950 font-serif mb-4">Apply for Membership</h1>
+        <p className="text-slate-600 text-lg">Join SDEA WB and strengthen our collective voice.</p>
       </div>
-      <h1 className="text-3xl md:text-5xl font-black text-brand-950 mb-4">Coming Soon</h1>
-      <p className="text-slate-600 max-w-lg mx-auto text-lg">
-        We are currently working on this section. Please check back later for updates.
-      </p>
+
+      <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 text-center">
+        <p className="text-slate-800 mb-6 font-medium">The digital membership application form is currently being updated for the 2026-2027 cycle.</p>
+        <p className="text-slate-600 mb-8">Please contact your District Secretary for offline membership forms.</p>
+        <a href="/office-bearers?tab=districts" className="bg-brand-900 hover:bg-brand-800 text-white font-bold py-3 px-8 rounded-xl transition">
+          Find District Secretaries
+        </a>
+      </div>
     </div>
   );
 }
