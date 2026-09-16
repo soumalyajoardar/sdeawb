@@ -71,34 +71,19 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/office-bearers" className="hover:text-amber-400 transition flex items-center gap-1.5">
-                  <ChevronRight className="w-3.5 h-3.5 text-amber-500" />
-                  <span>Central Executive Committee</span>
-                </Link>
+                
               </li>
               <li>
-                <Link href="/office-bearers?tab=districts" className="hover:text-amber-400 transition flex items-center gap-1.5">
-                  <ChevronRight className="w-3.5 h-3.5 text-amber-500" />
-                  <span>23 District Office Bearers</span>
-                </Link>
+                
               </li>
               <li>
-                <Link href="/charter-of-demand" className="hover:text-amber-400 transition flex items-center gap-1.5">
-                  <ChevronRight className="w-3.5 h-3.5 text-amber-500" />
-                  <span>Charter of Demands (20% NPA)</span>
-                </Link>
+                
               </li>
               <li>
-                <Link href="/notices" className="hover:text-amber-400 transition flex items-center gap-1.5">
-                  <ChevronRight className="w-3.5 h-3.5 text-amber-500" />
-                  <span>Government Circulars & Notices</span>
-                </Link>
+                
               </li>
               <li>
-                <Link href="/gallery" className="hover:text-amber-400 transition flex items-center gap-1.5">
-                  <ChevronRight className="w-3.5 h-3.5 text-amber-500" />
-                  <span>Photo & Video Gallery</span>
-                </Link>
+                
               </li>
             </ul>
           </div>
@@ -176,12 +161,7 @@ export default function Footer() {
             </div>
 
             <div className="mt-5 pt-3 border-t border-brand-800 flex items-center justify-between">
-              <Link 
-                href="/membership"
-                className="inline-block bg-amber-500 hover:bg-amber-600 text-brand-950 font-bold px-3 py-1.5 rounded text-xs transition"
-              >
-                Apply for Membership
-              </Link>
+              
               <button 
                 onClick={scrollToTop}
                 className="bg-brand-800 hover:bg-brand-700 text-amber-400 p-2 rounded-full transition shadow"

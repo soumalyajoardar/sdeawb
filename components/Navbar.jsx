@@ -48,23 +48,9 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center gap-3 ml-auto">
-            <Link 
-              href="/membership" 
-              className="bg-amber-500 hover:bg-amber-600 text-brand-950 font-bold px-2.5 py-0.5 rounded transition flex items-center gap-1 shadow-sm"
-            >
-              <UserCheck className="w-3 h-3" />
-              <span>New Membership</span>
-            </Link>
-            <Link 
-              href="/member-login" 
-              className="hover:text-amber-400 transition flex items-center gap-1 font-medium"
-            >
-              <LogIn className="w-3 h-3" />
-              <span>Member Login</span>
-            </Link>
-            <span className="text-slate-500">|</span>
-            <Link 
-              href="/admin/login" 
+            
+            
+            <Link href="/admin/login" 
               className="text-slate-300 hover:text-white transition flex items-center gap-1 font-medium"
             >
               <span>Admin Portal</span>
@@ -106,47 +92,17 @@ export default function Navbar() {
               About SDEA.WB
             </Link>
 
-            <Link 
-              href="/office-bearers" 
-              className={`px-3 py-2 rounded-md transition ${isCurrent('/office-bearers') ? 'text-brand-700 bg-brand-50 font-bold border-b-2 border-brand-700' : 'hover:text-brand-700 hover:bg-slate-100'}`}
-            >
-              Office Bearers
-            </Link>
+            
 
-            <Link 
-              href="/charter-of-demand" 
-              className={`px-3 py-2 rounded-md transition ${isCurrent('/charter-of-demand') ? 'text-brand-700 bg-brand-50 font-bold border-b-2 border-brand-700' : 'hover:text-brand-700 hover:bg-slate-100'}`}
-            >
-              Charter of Demands
-            </Link>
+            
 
-            <Link 
-              href="/notices" 
-              className={`px-3 py-2 rounded-md transition ${isCurrent('/notices') ? 'text-brand-700 bg-brand-50 font-bold border-b-2 border-brand-700' : 'hover:text-brand-700 hover:bg-slate-100'}`}
-            >
-              Notices & Circulars
-            </Link>
+            
 
-            <Link 
-              href="/gallery" 
-              className={`px-3 py-2 rounded-md transition ${isCurrent('/gallery') ? 'text-brand-700 bg-brand-50 font-bold border-b-2 border-brand-700' : 'hover:text-brand-700 hover:bg-slate-100'}`}
-            >
-              Gallery
-            </Link>
+            
 
-            <Link 
-              href="/membership" 
-              className={`px-3 py-2 rounded-md transition ${isCurrent('/membership') ? 'text-brand-700 bg-brand-50 font-bold border-b-2 border-brand-700' : 'hover:text-brand-700 hover:bg-slate-100'}`}
-            >
-              Membership
-            </Link>
+            
 
-            <Link 
-              href="/contact" 
-              className={`px-3 py-2 rounded-md transition ${isCurrent('/contact') ? 'text-brand-700 bg-brand-50 font-bold border-b-2 border-brand-700' : 'hover:text-brand-700 hover:bg-slate-100'}`}
-            >
-              Contact Us
-            </Link>
+            
           </div>
         </div>
 
@@ -167,48 +123,12 @@ export default function Navbar() {
             >
               About SDEA.WB (History & Constitution)
             </Link>
-            <Link 
-              href="/office-bearers" 
-              onClick={() => setMobileMenuOpen(false)}
-              className="block px-3 py-2 rounded hover:bg-brand-100 hover:text-brand-900"
-            >
-              Office Bearers (CEC & 23 Districts)
-            </Link>
-            <Link 
-              href="/charter-of-demand" 
-              onClick={() => setMobileMenuOpen(false)}
-              className="block px-3 py-2 rounded hover:bg-brand-100 hover:text-brand-900"
-            >
-              Charter of Demands (6 Pillars)
-            </Link>
-            <Link 
-              href="/notices" 
-              onClick={() => setMobileMenuOpen(false)}
-              className="block px-3 py-2 rounded hover:bg-brand-100 hover:text-brand-900"
-            >
-              Notices & Circulars Hub
-            </Link>
-            <Link 
-              href="/gallery" 
-              onClick={() => setMobileMenuOpen(false)}
-              className="block px-3 py-2 rounded hover:bg-brand-100 hover:text-brand-900"
-            >
-              Media & Event Gallery
-            </Link>
-            <Link 
-              href="/membership" 
-              onClick={() => setMobileMenuOpen(false)}
-              className="block px-3 py-2 rounded bg-amber-100 text-amber-900 font-bold"
-            >
-              Online Membership Application
-            </Link>
-            <Link 
-              href="/contact" 
-              onClick={() => setMobileMenuOpen(false)}
-              className="block px-3 py-2 rounded hover:bg-brand-100 hover:text-brand-900"
-            >
-              Contact Us & Grievance Desk
-            </Link>
+            
+            
+            
+            
+            
+            
             <div className="pt-2 border-t border-slate-200">
               <Link 
                 href="/admin/login" 
