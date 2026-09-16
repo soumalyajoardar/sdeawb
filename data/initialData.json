@@ -1,0 +1,629 @@
+{
+  "settings": {
+    "organizationName": "Society for Development of Engineers' & Architects' West Bengal",
+    "shortName": "SDEA WB",
+    "regNo": "S0005492",
+    "established": "1971",
+    "motto": "Justice, Liberty, Equality, Fraternity | Pay, Prestige & Promotion",
+    "address": "Office Of The Superintending Engineer, State Highway Planning Circle, P. W. (Roads) Directorate, Estimating Branch, Bhabani Bhawan, Alipore, Kolkata - 700 027",
+    "phone": "+91 7602877919",
+    "alternatePhone": "+91 9038726512",
+    "email": "sdeawb@gmail.com",
+    "alternateEmail": "sdeawb@yahoo.co.in",
+    "website": "https://sdeawb.org",
+    "facebook": "https://facebook.com/sdeawb",
+    "youtube": "https://youtube.com/@sdeawb",
+    "adminPassword": "admin"
+  },
+  "announcements": [
+    {
+      "id": "ann-1",
+      "text": "NEW! The next Central Executive Committee (CEC) Meeting will be held on 26th September 2026 (Saturday) at 11:00 AM at Bhabani Bhawan, Kolkata.",
+      "link": "/notices",
+      "urgent": true,
+      "active": true,
+      "date": "2026-09-15"
+    },
+    {
+      "id": "ann-2",
+      "text": "Sub-Assistant & Assistant Engineers Welfare Scheme 2026 guidelines released. Check the Notices tab for details.",
+      "link": "/notices",
+      "urgent": false,
+      "active": true,
+      "date": "2026-09-12"
+    },
+    {
+      "id": "ann-3",
+      "text": "Charter of Demands memorandum submitted to State Finance Department regarding 20% NPA & 50% Promotion Quota.",
+      "link": "/charter-of-demand",
+      "urgent": false,
+      "active": true,
+      "date": "2026-09-01"
+    }
+  ],
+  "notices": [
+    {
+      "id": "not-1",
+      "noticeNo": "SDEA/CEC/2026/09",
+      "title": "Notice for 42nd Central Executive Committee Meeting at Bhabani Bhawan, Alipore",
+      "category": "Meeting Notice",
+      "date": "2026-09-10",
+      "pinned": true,
+      "department": "All Departments",
+      "description": "All respected Central Executive Committee members and District Secretaries are requested to attend the upcoming CEC meeting scheduled on 26th September 2026 at 11:00 AM in Bhabani Bhawan, Alipore.",
+      "fileUrl": "#"
+    },
+    {
+      "id": "not-2",
+      "noticeNo": "SDEA/GOV/2026/08",
+      "title": "Detailed Memorandum regarding 20% Non-Practicing Allowance (NPA) for Engineering Cadre",
+      "category": "Govt Memorandum",
+      "date": "2026-08-25",
+      "pinned": true,
+      "department": "P.W.D. & I&W",
+      "description": "Joint memorandum submitted to the Department of Finance outlining justification for 20% NPA and recognition of engineers as professional technocrats at par with other professional cadres.",
+      "fileUrl": "#"
+    },
+    {
+      "id": "not-3",
+      "noticeNo": "SDEA/PSC/2026/07",
+      "title": "Advisory for Members Appearing in PSC West Bengal Professional Engineering Examination",
+      "category": "Examination",
+      "date": "2026-07-15",
+      "pinned": false,
+      "department": "General",
+      "description": "Important instructions, syllabus breakdown, and reference materials for Sub-Assistant Engineers appearing in the upcoming Public Service Commission (PSC) departmental exam.",
+      "fileUrl": "#"
+    },
+    {
+      "id": "not-4",
+      "noticeNo": "SDEA/WEL/2026/06",
+      "title": "Guidelines for State Diploma Engineers Mutual Aid and Welfare Fund 2026",
+      "category": "Welfare",
+      "date": "2026-06-30",
+      "pinned": false,
+      "department": "All Departments",
+      "description": "Rules governing benevolent fund grants, medical assistance, and emergency relief provisions for members and their families.",
+      "fileUrl": "#"
+    },
+    {
+      "id": "not-5",
+      "noticeNo": "SDEA/PRD/2026/05",
+      "title": "Resolution on Cadre Restructuring in Panchayat & Rural Development (P&RD) Department",
+      "category": "Cadre Restructuring",
+      "date": "2026-05-18",
+      "pinned": false,
+      "department": "P&RD",
+      "description": "Recommendations regarding creation of Block Development Engineer posts and timely promotion channels for field engineers.",
+      "fileUrl": "#"
+    }
+  ],
+  "officeBearers": [
+    {
+      "id": "ob-1",
+      "type": "cec",
+      "district": "State Level",
+      "designation": "President",
+      "name": "Er. Sanjoy Kumar Maity",
+      "department": "P. W. (Roads) Directorate",
+      "rank": "Executive Engineer (E.E.)",
+      "mobile": "9038726512",
+      "email": "sdeawb@gmail.com",
+      "order": 1
+    },
+    {
+      "id": "ob-2",
+      "type": "cec",
+      "district": "State Level",
+      "designation": "Sr. Vice President",
+      "name": "Er. Soumen Joardar",
+      "department": "Irrigation & Waterways Directorate",
+      "rank": "Assistant Engineer (A.E.)",
+      "mobile": "9732501213",
+      "email": "sdeawb@gmail.com",
+      "order": 2
+    },
+    {
+      "id": "ob-3",
+      "type": "cec",
+      "district": "State Level",
+      "designation": "Vice President",
+      "name": "Er. Manoj Saha",
+      "department": "Irrigation & Waterways Directorate",
+      "rank": "Assistant Engineer (A.E.)",
+      "mobile": "9734177972",
+      "email": "sdeawb@gmail.com",
+      "order": 3
+    },
+    {
+      "id": "ob-4",
+      "type": "cec",
+      "district": "State Level",
+      "designation": "Patron",
+      "name": "Er. Gour Pal Chaudhury",
+      "department": "P. W. (Roads) Directorate",
+      "rank": "Retired Junior Engineer",
+      "mobile": "9830908075",
+      "email": "",
+      "order": 4
+    },
+    {
+      "id": "ob-5",
+      "type": "cec",
+      "district": "State Level",
+      "designation": "Patron",
+      "name": "Er. Sukesh Mukherjee",
+      "department": "P.W.D. (Electrical)",
+      "rank": "Retired Junior Engineer",
+      "mobile": "9474037291",
+      "email": "",
+      "order": 5
+    },
+    {
+      "id": "ob-6",
+      "type": "cec",
+      "district": "State Level",
+      "designation": "General Secretary",
+      "name": "Er. Tapan Kumar Das",
+      "department": "P.W. Directorate (Civil)",
+      "rank": "Assistant Engineer (A.E.)",
+      "mobile": "9433128910",
+      "email": "sdeawb@gmail.com",
+      "order": 6
+    },
+    {
+      "id": "ob-7",
+      "type": "cec",
+      "district": "State Level",
+      "designation": "Treasurer",
+      "name": "Er. Subrata Chatterjee",
+      "department": "Public Health Engineering (PHED)",
+      "rank": "Assistant Engineer (A.E.)",
+      "mobile": "9831094321",
+      "email": "sdeawb@gmail.com",
+      "order": 7
+    },
+    {
+      "id": "ob-8",
+      "type": "cec",
+      "district": "State Level",
+      "designation": "Organizing Secretary",
+      "name": "Er. Anirban Ghosh",
+      "department": "Panchayat & Rural Development (P&RD)",
+      "rank": "Assistant Engineer (A.E.)",
+      "mobile": "9434012345",
+      "email": "sdeawb@gmail.com",
+      "order": 8
+    },
+    {
+      "id": "ob-9",
+      "type": "district",
+      "district": "Kolkata",
+      "designation": "District Secretary",
+      "name": "Er. Sougata Bhattacharya",
+      "department": "P.W.D. (Civil)",
+      "rank": "Assistant Engineer",
+      "mobile": "9831223344",
+      "email": "kolkata@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-10",
+      "type": "district",
+      "district": "Howrah",
+      "designation": "District Secretary",
+      "name": "Er. Kalyan Mondal",
+      "department": "P. W. (Roads) Directorate",
+      "rank": "Sub-Assistant Engineer",
+      "mobile": "9830112233",
+      "email": "howrah@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-11",
+      "type": "district",
+      "district": "North 24 Parganas",
+      "designation": "District Secretary",
+      "name": "Er. Biplab Roy",
+      "department": "Public Health Engineering",
+      "rank": "Assistant Engineer",
+      "mobile": "9832334455",
+      "email": "north24p@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-12",
+      "type": "district",
+      "district": "South 24 Parganas",
+      "designation": "District Secretary",
+      "name": "Er. Amitava Das",
+      "department": "Irrigation & Waterways",
+      "rank": "Sub-Assistant Engineer",
+      "mobile": "9833445566",
+      "email": "south24p@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-13",
+      "type": "district",
+      "district": "Hooghly",
+      "designation": "District Secretary",
+      "name": "Er. Prasenjit Ghosh",
+      "department": "P.W.D. (Electrical)",
+      "rank": "Assistant Engineer",
+      "mobile": "9834556677",
+      "email": "hooghly@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-14",
+      "type": "district",
+      "district": "Nadia",
+      "designation": "District Secretary",
+      "name": "Er. Tapas Biswas",
+      "department": "P. W. (Roads) Directorate",
+      "rank": "Sub-Assistant Engineer",
+      "mobile": "9835667788",
+      "email": "nadia@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-15",
+      "type": "district",
+      "district": "Purba Bardhaman",
+      "designation": "District Secretary",
+      "name": "Er. Swapan Dey",
+      "department": "P.W.D. (Civil)",
+      "rank": "Assistant Engineer",
+      "mobile": "9836778899",
+      "email": "purbabardhaman@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-16",
+      "type": "district",
+      "district": "Paschim Bardhaman",
+      "designation": "District Secretary",
+      "name": "Er. G. Sengupta",
+      "department": "P.W.D. (Mechanical)",
+      "rank": "Assistant Engineer",
+      "mobile": "9837889900",
+      "email": "paschimbardhaman@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-17",
+      "type": "district",
+      "district": "Purba Medinipur",
+      "designation": "District Secretary",
+      "name": "Er. Alok Jana",
+      "department": "Irrigation & Waterways",
+      "rank": "Sub-Assistant Engineer",
+      "mobile": "9838990011",
+      "email": "purbamedinipur@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-18",
+      "type": "district",
+      "district": "Paschim Medinipur",
+      "designation": "District Secretary",
+      "name": "Er. B. Mahapatra",
+      "department": "Public Health Engineering",
+      "rank": "Assistant Engineer",
+      "mobile": "9839001122",
+      "email": "paschimmedinipur@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-19",
+      "type": "district",
+      "district": "Jhargram",
+      "designation": "District Secretary",
+      "name": "Er. S. Murmu",
+      "department": "Panchayat & Rural Dev.",
+      "rank": "Sub-Assistant Engineer",
+      "mobile": "9840112233",
+      "email": "jhargram@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-20",
+      "type": "district",
+      "district": "Bankura",
+      "designation": "District Secretary",
+      "name": "Er. R. Karmakar",
+      "department": "P.W. (Roads) Directorate",
+      "rank": "Assistant Engineer",
+      "mobile": "9841223344",
+      "email": "bankura@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-21",
+      "type": "district",
+      "district": "Purulia",
+      "designation": "District Secretary",
+      "name": "Er. N. Mahato",
+      "department": "Irrigation & Waterways",
+      "rank": "Sub-Assistant Engineer",
+      "mobile": "9842334455",
+      "email": "purulia@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-22",
+      "type": "district",
+      "district": "Birbhum",
+      "designation": "District Secretary",
+      "name": "Er. C. Malakar",
+      "department": "P.W.D. (Civil)",
+      "rank": "Assistant Engineer",
+      "mobile": "9843445566",
+      "email": "birbhum@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-23",
+      "type": "district",
+      "district": "Murshidabad",
+      "designation": "District Secretary",
+      "name": "Er. S. Sk",
+      "department": "Irrigation & Waterways",
+      "rank": "Sub-Assistant Engineer",
+      "mobile": "9844556677",
+      "email": "murshidabad@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-24",
+      "type": "district",
+      "district": "Malda",
+      "designation": "District Secretary",
+      "name": "Er. R. Choudhury",
+      "department": "Public Health Engineering",
+      "rank": "Assistant Engineer",
+      "mobile": "9845667788",
+      "email": "malda@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-25",
+      "type": "district",
+      "district": "Uttar Dinajpur",
+      "designation": "District Secretary",
+      "name": "Er. K. Barman",
+      "department": "P.W. (Roads) Directorate",
+      "rank": "Sub-Assistant Engineer",
+      "mobile": "9846778899",
+      "email": "uttardinajpur@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-26",
+      "type": "district",
+      "district": "Dakshin Dinajpur",
+      "designation": "District Secretary",
+      "name": "Er. P. Roy",
+      "department": "P.W.D. (Civil)",
+      "rank": "Assistant Engineer",
+      "mobile": "9847889900",
+      "email": "dakshindinajpur@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-27",
+      "type": "district",
+      "district": "Jalpaiguri",
+      "designation": "District Secretary",
+      "name": "Er. A. Sarkar",
+      "department": "Irrigation & Waterways",
+      "rank": "Sub-Assistant Engineer",
+      "mobile": "9848990011",
+      "email": "jalpaiguri@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-28",
+      "type": "district",
+      "district": "Alipurduar",
+      "designation": "District Secretary",
+      "name": "Er. S. Rava",
+      "department": "P.W.D. (Civil)",
+      "rank": "Sub-Assistant Engineer",
+      "mobile": "9849001122",
+      "email": "alipurduar@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-29",
+      "type": "district",
+      "district": "Cooch Behar",
+      "designation": "District Secretary",
+      "name": "Er. H. Barman",
+      "department": "P.W. (Roads) Directorate",
+      "rank": "Assistant Engineer",
+      "mobile": "9850112233",
+      "email": "coochbehar@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-30",
+      "type": "district",
+      "district": "Darjeeling",
+      "designation": "District Secretary",
+      "name": "Er. D. Lepcha",
+      "department": "P.W.D. (Civil)",
+      "rank": "Assistant Engineer",
+      "mobile": "9851223344",
+      "email": "darjeeling@sdeawb.org",
+      "order": 1
+    },
+    {
+      "id": "ob-31",
+      "type": "district",
+      "district": "Kalimpong",
+      "designation": "District Secretary",
+      "name": "Er. T. Bhutia",
+      "department": "Irrigation & Waterways",
+      "rank": "Sub-Assistant Engineer",
+      "mobile": "9852334455",
+      "email": "kalimpong@sdeawb.org",
+      "order": 1
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gal-1",
+      "title": "Central Executive Committee Meeting at Bhabani Bhawan",
+      "category": "CEC Meetings",
+      "type": "image",
+      "src": "/images/gallery/1.png",
+      "date": "2026-08-14"
+    },
+    {
+      "id": "gal-2",
+      "title": "State Annual Convention Technical Session",
+      "category": "Conventions",
+      "type": "image",
+      "src": "/images/gallery/2.png",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "gal-3",
+      "title": "General Body Meeting Discussion on Cadre Restructuring",
+      "category": "Agitations & Meetings",
+      "type": "image",
+      "src": "/images/gallery/3.png",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "gal-4",
+      "title": "Deputation to Chief Engineer, P.W. (Roads) Directorate",
+      "category": "Agitations & Meetings",
+      "type": "image",
+      "src": "/images/gallery/4.png",
+      "date": "2026-05-30"
+    },
+    {
+      "id": "gal-5",
+      "title": "Voluntary Blood Donation Camp organized by SDEA WB",
+      "category": "Social Initiatives",
+      "type": "image",
+      "src": "/images/gallery/5.png",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "gal-6",
+      "title": "Central Executive Committee Members in deliberation",
+      "category": "CEC Meetings",
+      "type": "image",
+      "src": "/images/gallery/6.png",
+      "date": "2026-04-25"
+    },
+    {
+      "id": "gal-7",
+      "title": "Felicitation Ceremony for Retired Engineers & Architects",
+      "category": "Conventions",
+      "type": "image",
+      "src": "/images/gallery/7.png",
+      "date": "2026-03-10"
+    },
+    {
+      "id": "gal-8",
+      "title": "District Delegates Assembly at Kolkata Headquarters",
+      "category": "Conventions",
+      "type": "image",
+      "src": "/images/gallery/8.png",
+      "date": "2026-02-19"
+    },
+    {
+      "id": "gal-10",
+      "title": "State Engineers Solidarity Rally for 20% NPA",
+      "category": "Agitations & Meetings",
+      "type": "image",
+      "src": "/images/gallery/10.png",
+      "date": "2026-01-28"
+    },
+    {
+      "id": "gal-12",
+      "title": "Technical Symposium on Modern Infrastructure",
+      "category": "Conventions",
+      "type": "image",
+      "src": "/images/gallery/12.png",
+      "date": "2026-01-15"
+    },
+    {
+      "id": "gal-15",
+      "title": "Disaster Relief and Medical Assistance Program",
+      "category": "Social Initiatives",
+      "type": "image",
+      "src": "/images/gallery/15.png",
+      "date": "2025-11-20"
+    },
+    {
+      "id": "gal-18",
+      "title": "Annual General Meeting Address by State President",
+      "category": "Conventions",
+      "type": "image",
+      "src": "/images/gallery/18.png",
+      "date": "2025-10-05"
+    }
+  ],
+  "memberships": [
+    {
+      "id": "mem-101",
+      "applicantName": "Er. Arindam Banerjee",
+      "designation": "Sub-Assistant Engineer",
+      "department": "Public Works Department (Civil)",
+      "postingOffice": "Alipore Division, P.W.D., Kolkata",
+      "district": "Kolkata",
+      "mobile": "9830129876",
+      "email": "arindam.banerjee@example.com",
+      "qualification": "Diploma in Civil Engineering (APC Roy Polytechnic)",
+      "dateOfJoining": "2022-04-12",
+      "status": "Approved",
+      "appliedAt": "2026-09-02",
+      "notes": "Verified service credentials with district secretary."
+    },
+    {
+      "id": "mem-102",
+      "applicantName": "Er. Suman Kalyan Roy",
+      "designation": "Assistant Engineer",
+      "department": "Irrigation & Waterways Directorate",
+      "postingOffice": "Damodar Canal Division, Bardhaman",
+      "district": "Purba Bardhaman",
+      "mobile": "9734567890",
+      "email": "suman.kalyan@example.com",
+      "qualification": "Diploma in Civil Engineering (KGEC)",
+      "dateOfJoining": "2018-08-01",
+      "status": "Pending",
+      "appliedAt": "2026-09-14",
+      "notes": ""
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1",
+      "name": "Er. Bikram Ghosh",
+      "email": "bikram.ghosh@example.com",
+      "phone": "9831987654",
+      "category": "Membership Query",
+      "subject": "Inquiry regarding legacy member registration",
+      "message": "Respected General Secretary, I have been an SDEA member since 2015 under Howrah division. How do I get my digital membership ID card on the redesigned portal?",
+      "date": "2026-09-15",
+      "status": "unread"
+    },
+    {
+      "id": "msg-2",
+      "name": "Er. Tanmoy Mukherjee",
+      "email": "tanmoy.m@example.com",
+      "phone": "9434876543",
+      "category": "Cadre Grievance",
+      "subject": "Regarding 8-year promotional eligibility seniority list",
+      "message": "Requesting clarification on the recent circular regarding inter-se seniority calculation for SAEs promoted to AE in P.W. (Roads) Directorate.",
+      "date": "2026-09-11",
+      "status": "resolved"
+    }
+  ]
+}
