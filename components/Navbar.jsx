@@ -73,10 +73,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      
-        </div>
-      </div>
-
       {/* Main Navigation Bar */}
       <nav className="bg-white border-b border-slate-200">
         <div className="max-w-[100rem] mx-auto px-4 sm:px-8 flex justify-between items-center">
