@@ -1,200 +1,63 @@
-import Link from 'next/link';
-import { 
-  Shield, Award, History, Landmark, CheckCircle, Target, 
-  ArrowRight, Users, Compass, BookOpen 
-} from 'lucide-react';
-
-export const metadata = {
-  title: "About SDEA WB | History, Constitution & Vision",
-  description: "Learn about the heritage of the Society for Development of Engineers’ & Architects’ West Bengal, established in 1971."
-};
+import { Building2, Award, History, Target, CheckCircle2 } from 'lucide-react';
 
 export default function AboutPage() {
   return (
-    <div className="space-y-12 pb-16">
-      {/* Banner */}
-      <section className="bg-gradient-to-r from-brand-950 via-brand-900 to-slate-900 text-white py-14 border-b-4 border-amber-500">
-        <div className="max-w-[100rem] mx-auto px-4 sm:px-8">
-          <div className="max-w-3xl space-y-3">
-            <span className="text-amber-400 font-bold text-xs uppercase tracking-widest flex items-center gap-2">
-              <Landmark className="w-4 h-4" />
-              <span>Heritage & Foundation</span>
-            </span>
-            <h1 className="text-3xl sm:text-5xl font-black font-serif">
-              About SDEA WB
-            </h1>
-            <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-              Serving the technocrat fraternity since 1971. Founded on the bedrock principles of Justice, Liberty, Equality, and Fraternity for all state engineers and architects.
-            </p>
-          </div>
+    <div className="space-y-16 pb-16">
+      <section className="bg-brand-950 text-white py-16 lg:py-24 relative overflow-hidden border-b-4 border-amber-500">
+        <div className="absolute inset-0 bg-grid-pattern opacity-10 pointer-events-none"></div>
+        <div className="max-w-[100rem] mx-auto px-4 sm:px-8 relative z-10">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black font-serif mb-6">About SDEA.WB</h1>
+          <p className="text-slate-300 text-lg sm:text-xl max-w-3xl leading-relaxed font-light">
+            Founded in 1971, the Society for Development of Engineers' &amp; Architects' West Bengal is the apex organization fighting for the Pay, Prestige &amp; Promotion of technocrats.
+          </p>
         </div>
       </section>
 
-      {/* Main Content */}
-      <div className="max-w-[100rem] mx-auto px-4 sm:px-8 space-y-12">
-        {/* Registration & Basic Overview */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-            <div className="text-brand-700 font-bold text-xs uppercase mb-1">Government Registration</div>
-            <div className="text-2xl font-black text-slate-900">Reg. No: S0005492</div>
-            <p className="text-xs text-slate-500 mt-2">
-              Registered under the West Bengal Societies Registration Act XXVI of 1961.
-            </p>
-          </div>
-
-          <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-            <div className="text-brand-700 font-bold text-xs uppercase mb-1">Foundational Year</div>
-            <div className="text-2xl font-black text-slate-900">December 1971</div>
-            <p className="text-xs text-slate-500 mt-2">
-              Over 50 years of uninterrupted democratic technocrat representation across Bengal.
-            </p>
-          </div>
-
-          <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-            <div className="text-brand-700 font-bold text-xs uppercase mb-1">Affiliation & Network</div>
-            <div className="text-2xl font-black text-slate-900">All India & State</div>
-            <p className="text-xs text-slate-500 mt-2">
-              Apex non-political association affiliated with All India Federation of Diploma Engineers (AIFODE).
-            </p>
-          </div>
-        </div>
-
-        {/* Historical Narrative */}
-        <section className="bg-white rounded-2xl p-8 sm:p-10 border border-slate-200 shadow-sm space-y-6">
-          <div className="flex items-center gap-3 border-b border-slate-200 pb-4">
-            <div className="w-10 h-10 bg-amber-100 text-amber-800 rounded-lg flex items-center justify-center font-bold">
-              <History className="w-5 h-5" />
-            </div>
+      <section className="max-w-[100rem] mx-auto px-4 sm:px-8 space-y-12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+          
+          <div className="lg:col-span-2 space-y-8">
             <div>
-              <h2 className="text-xl sm:text-2xl font-black text-slate-900 font-serif">
-                The Historical Movement & Genesis
-              </h2>
-              <div className="text-xs text-slate-500">From 1970 Fighting Committee to Present Day SDEA WB</div>
+              <div className="inline-flex items-center gap-2 text-amber-600 font-bold mb-4 uppercase tracking-wider text-sm">
+                <History className="w-5 h-5" /> Our History &amp; Formation
+              </div>
+              <h2 className="text-3xl font-black text-brand-950 font-serif mb-6">Why and How We Were Formed</h2>
+              <div className="prose prose-slate max-w-none text-slate-700 leading-loose space-y-6 text-justify">
+                <p>In Pre 1970 there was only one organization of Sub-Assistant Engineer (D.E) in West Bengal was Subordinate Engineering Service Association (W.B.S.E.S.A). At the time of United Front Govt. in West Bengal in the year 1967, 1st Pay Commission was formed. The then Leadership had submitted a Memorandum to the Hon&apos;ble Pay Commission ignoring all norms of "Need based Minimum Wage" regarding Pay Structure of Sub-Assistant Engineers (D.E). They demanded Pay Scale of S.A.E is Rs. 370 - 700/- (20 yrs. Span). Before that Pay Scale of S.A.E&apos;s was Rs. 200 - 400/-.</p>
+                <p>The Pay Commission (1967-69) recommended the Pay Scale of Rs. 350 - 600/- but the Govt. accepted the Pay Scale of Rs. 300 - 600/- for the S.A.E along with Surveyor and Draftsman. The remarks of Late Mr. K. G. Bose, one of the Member of the said Pay Commission were "Sub-Assistant Engineers and Estimators are holders of L.C.E, L.M.E or L.E.E diploma. The first three categories of Draftsman and Surveyor have also technical qualification. Their work is the same and similar nature. There does not seem to be any justification for a difference in the Pay Scales".</p>
+                <p>After the publication of the Report of Hon&apos;ble Pay Commission, the S.A.E&apos;s were very much aggrieved and agitation begun in different places of the State. The High Profile Leadership of the then W.B.S.E.S.A not only debarred some vocal Personalities from the Association but also ceased their Primary Membership. In the year 1970, the debarred Personalities thought that they should do some thing for the Diploma Engineers. Accordingly, they formed a Committee in the name of "West Bengal Sub-Assistant Engineers Fighting Committee". As a result, large numbers of Sub-Assistant Engineers all over the State joined at this Committee to strengthen it. In December, 1971 a Convention was held at Kalighat and from that Convention "West Bengal Sub-Assistant Engineers&apos; Association came into light.</p>
+                <p>The aims and objects of the Association will be JUSTICE, LIBERTY, EQUALITY AND FRATERNITY as well as Pay, Prestige &amp; Promotion for the S.A.E Cadre. In 1973, we took the Affiliation of A.I.F.O.D.E, the only Organisation of Diploma Engineers all over the Country and are free from any Political overlook. After observing the activities of A.I.F.O.D.E, we felt that we are to fight against the vindictive attitude of the W.B.S.E.S.A as well as Govt., we should formed a United front of Diploma Engineers working in different sectors in the State. We got the inspiration from our beloved Federal Leader Er. S. P. Mohanty in this issue. Accordingly, on our hole hearted effort "STATE FEDERATION OF ASSOCIATIONS OF DIPLOMA ENGINEERS, WEST BENGAL" was formed in the year 1974 where Er. S. P. Mohanty from A.I.F.O.D.E and Er. P. B. Karmakar of Assam were present along with 3 (Three) other Organisation of Diploma Engineers of the State. In 1976, S.F.A.D.E, West Bengal took the affiliation of A.I.F.O.D.E.</p>
+                <p>In 1980, a question was raised by our Members who got promoted to the rank of Assistant Engineer, how we could continue our Membership of the Parent Organisation, i.e., West Bengal Sub-Assistant Engineers&apos; Association of S.A.E. The issue was a vital one and it was thoroughly discussed in the Annual Conference in 1981 (which is the Supreme body of the Association) and the present name (W.B.S.A.E.A) will be renamed as "STATE DIPLOMA ENGINEERS&apos; ASSOCIATION, WEST BENGAL" was approved unanimously.</p>
+                <p>Formation of Society for bonding between technocrats of different designated officials who perform similar nature of work. Basically SDEA is a professional organization for the Engineers that may focus on any disciplines including Architects and serve as an umbrella organization. In the Annual General Meeting at Mahajati Sadan, Kolkata in December 2017 the nomenclature of our beloved organization has been changed as "Society for Development of Engineers&apos; &amp; Architects&apos; West Bengal" keeping the same word, SDEA WB to accommodate all the Engineering Cadres to adopt social activities and stretching the hand to previllaged like community not only under the Government of West Bengal apart from that off.</p>
+              </div>
             </div>
           </div>
 
-          <div className="prose prose-slate max-w-none text-slate-700 space-y-4 text-sm sm:text-base leading-relaxed">
-            <p>
-              Following the publication of the Report of the Hon&apos;ble Pay Commission in the late 1960s, Sub-Assistant Engineers (S.A.E.) across West Bengal felt deeply aggrieved by the denial of their rightful pay, promotion avenues, and professional status. A widespread democratic agitation was ignited in different corners of the state.
-            </p>
-            
-            <p>
-              In 1970, when vocal leaders standing up for the cadre were subjected to retaliatory measures, dedicated technocrats resolved that an independent, uncompromising body must be created. They formed the <strong>&quot;West Bengal Sub-Assistant Engineers Fighting Committee&quot;</strong>. Large numbers of engineers rallied under this banner.
-            </p>
-
-            <div className="bg-brand-50 border-l-4 border-brand-700 p-4 rounded-r-lg my-6">
-              <h3 className="font-bold text-brand-900 text-base mb-1">The Historic Kalighat Convention (December 1971)</h3>
-              <p className="text-xs sm:text-sm text-brand-800">
-                In December 1971, a historic convention of engineers was convened at Kalighat, Kolkata. From this convention, the <strong>West Bengal Sub-Assistant Engineers’ Association (W.B.S.A.E.A)</strong> was born, solemnly adopting the sacred motto: <em>JUSTICE, LIBERTY, EQUALITY AND FRATERNITY</em> as well as <em>Pay, Prestige & Promotion</em> for the engineering cadre.
-              </p>
-            </div>
-
-            <p>
-              In 1973, the Association obtained affiliation with <strong>A.I.F.O.D.E. (All India Federation of Diploma Engineers)</strong>, the premier national organization free from political overlook. Inspired by federal leaders such as Er. S. P. Mohanty and Er. P. B. Karmakar, the <strong>State Federation of Associations of Diploma Engineers, West Bengal (SFADE WB)</strong> was established in 1974.
-            </p>
-
-            <p>
-              By 1980, as senior members earned promotions to the rank of Assistant Engineer (A.E.), the organization resolved at its 1981 Annual Conference to rename itself as <strong>&quot;STATE DIPLOMA ENGINEERS’ ASSOCIATION, WEST BENGAL&quot; (SDEA WB)</strong>, ensuring lifelong solidarity across both junior and senior cadre ranks.
-            </p>
-
-            <div className="bg-amber-50 border-l-4 border-amber-600 p-4 rounded-r-lg my-6">
-              <h3 className="font-bold text-amber-950 text-base mb-1">Mahajati Sadan Resolution & Expanded Nomenclature (2017)</h3>
-              <p className="text-xs sm:text-sm text-amber-900">
-                In the historic Annual General Meeting held at <strong>Mahajati Sadan, Kolkata</strong> in December 2017, the general body unanimously voted to adopt the expanded nomenclature: <strong>&quot;Society for Development of Engineers’ & Architects’ West Bengal&quot;</strong>, preserving the cherished acronym <strong>SDEA WB</strong> while welcoming architects and technocrats across all engineering sectors.
-              </p>
+          <div className="space-y-8">
+            <div className="bg-slate-50 p-8 rounded-2xl border border-slate-200">
+              <div className="inline-flex items-center gap-2 text-brand-700 font-bold mb-4 uppercase tracking-wider text-sm">
+                <Target className="w-5 h-5" /> Core Philosophy
+              </div>
+              <h3 className="text-2xl font-black text-brand-950 mb-6">Aims &amp; Objectives</h3>
+              <ul className="space-y-4">
+                {[
+                  'Justice, Liberty, Equality, and Fraternity.',
+                  'Pay, Prestige & Promotion for the S.A.E Cadre.',
+                  'Bonding between technocrats of different designated officials.',
+                  'Professional growth across all engineering disciplines.',
+                  'Adopt social activities to help the underprivileged.'
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-3">
+                    <CheckCircle2 className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
+                    <span className="text-slate-700 font-medium leading-relaxed">{item}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
-        </section>
 
-        {/* Core Aims and Objectives */}
-        <section className="space-y-6">
-          <div className="text-center max-w-2xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl font-black text-slate-900 font-serif">
-              Our Core Aims & Objects
-            </h2>
-            <p className="text-xs sm:text-sm text-slate-600 mt-1">
-              Guiding every resolution, deputation, and democratic initiative undertaken by SDEA WB.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-3">
-              <div className="w-10 h-10 bg-brand-100 text-brand-800 rounded-lg flex items-center justify-center font-bold">
-                <Shield className="w-5 h-5" />
-              </div>
-              <h3 className="font-bold text-slate-900 text-base">Cadre Protection & Rights</h3>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Protecting service conditions, recruitment rules, promotion avenues, and fair seniority for engineers across all government wings.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-3">
-              <div className="w-10 h-10 bg-amber-100 text-amber-800 rounded-lg flex items-center justify-center font-bold">
-                <Award className="w-5 h-5" />
-              </div>
-              <h3 className="font-bold text-slate-900 text-base">Professional Parity & NPA</h3>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Demanding statutory professional status for state technocrats and 20% Non-Practicing Allowance (NPA) at par with medical officers.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-3">
-              <div className="w-10 h-10 bg-cyan-100 text-cyan-800 rounded-lg flex items-center justify-center font-bold">
-                <Compass className="w-5 h-5" />
-              </div>
-              <h3 className="font-bold text-slate-900 text-base">Technical Excellence</h3>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Conducting engineering symposiums, quality audits, technical training, and modern design seminars to elevate state public works.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-3">
-              <div className="w-10 h-10 bg-emerald-100 text-emerald-800 rounded-lg flex items-center justify-center font-bold">
-                <Users className="w-5 h-5" />
-              </div>
-              <h3 className="font-bold text-slate-900 text-base">Mutual Benevolent Aid</h3>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Administering benevolent emergency grants, medical aid schemes, and legal defense assistance for member engineers and families.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-3">
-              <div className="w-10 h-10 bg-indigo-100 text-indigo-800 rounded-lg flex items-center justify-center font-bold">
-                <BookOpen className="w-5 h-5" />
-              </div>
-              <h3 className="font-bold text-slate-900 text-base">Career Advancement</h3>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Enabling PSC examination eligibility from day one of service and fighting for 8-year promotional eligibility to Assistant Engineer.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-3">
-              <div className="w-10 h-10 bg-rose-100 text-rose-800 rounded-lg flex items-center justify-center font-bold">
-                <Target className="w-5 h-5" />
-              </div>
-              <h3 className="font-bold text-slate-900 text-base">Statewide Solidarity</h3>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Maintaining active, democratic, and responsive district committees in all 23 districts from the Himalayas in Darjeeling to the Sundarbans.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* CTA */}
-        <div className="bg-brand-900 text-white rounded-2xl p-8 flex flex-col sm:flex-row items-center justify-between gap-6">
-          <div>
-            <h3 className="text-xl sm:text-2xl font-bold font-serif mb-1">Meet the Leadership Team</h3>
-            <p className="text-xs sm:text-sm text-slate-300">Explore Central Executive Committee and District Secretaries representing your region.</p>
-          </div>
-          <Link 
-            href="/office-bearers" 
-            className="bg-amber-500 hover:bg-amber-600 text-brand-950 font-bold px-6 py-3 rounded-lg text-sm transition shrink-0"
-          >
-            View Office Bearers
-          </Link>
         </div>
-      </div>
+      </section>
     </div>
   );
 }
-
