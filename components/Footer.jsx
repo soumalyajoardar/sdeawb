@@ -24,7 +24,7 @@ export default function Footer() {
   return (
     <footer className="bg-gradient-to-b from-brand-950 to-slate-950 text-slate-300 border-t-4 border-amber-500 text-sm">
       {/* Upper Footer */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-8 py-12">
+      <div className="max-w-[100rem] mx-auto px-4 sm:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Col 1: About Organization */}
           <div>
@@ -197,7 +197,7 @@ export default function Footer() {
 
       {/* Bottom Legal Bar */}
       <div className="bg-black/80 py-4 px-4 sm:px-8 border-t border-brand-900 text-xs text-slate-400">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div className="max-w-[100rem] mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
           <div>
             © {new Date().getFullYear()} Society for Development of Engineers’ & Architects’ West Bengal (SDEA WB). All Rights Reserved.
           </div>

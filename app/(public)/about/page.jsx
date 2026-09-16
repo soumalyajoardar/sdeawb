@@ -14,7 +14,7 @@ export default function AboutPage() {
     <div className="space-y-12 pb-16">
       {/* Banner */}
       <section className="bg-gradient-to-r from-brand-950 via-brand-900 to-slate-900 text-white py-14 border-b-4 border-amber-500">
-        <div className="max-w-7xl mx-auto px-4 sm:px-8">
+        <div className="max-w-[100rem] mx-auto px-4 sm:px-8">
           <div className="max-w-3xl space-y-3">
             <span className="text-amber-400 font-bold text-xs uppercase tracking-widest flex items-center gap-2">
               <Landmark className="w-4 h-4" />
@@ -31,7 +31,7 @@ export default function AboutPage() {
       </section>
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-8 space-y-12">
+      <div className="max-w-[100rem] mx-auto px-4 sm:px-8 space-y-12">
         {/* Registration & Basic Overview */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">

@@ -29,7 +29,7 @@ export default function MarqueeTicker({ initialAnnouncements = [] }) {
 
   return (
     <div className="bg-amber-500 text-slate-950 text-sm font-semibold border-b border-amber-600 shadow-sm relative overflow-hidden">
-      <div className="max-w-7xl mx-auto flex items-center">
+      <div className="max-w-[100rem] mx-auto flex items-center">
 
         {/* Scrolling Track with Pause on Hover */}
         <div className="relative w-full overflow-hidden whitespace-nowrap py-2 pause-hover">

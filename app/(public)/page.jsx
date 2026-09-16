@@ -20,18 +20,32 @@ export default function HomePage() {
         <div className="absolute -top-24 -right-24 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
         <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-brand-500/20 rounded-full blur-3xl pointer-events-none"></div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-8 relative z-10">
+        <div className="max-w-[100rem] mx-auto px-4 sm:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             {/* Left Col: Hero Headline & Actions */}
             <div className="lg:col-span-8 space-y-6">
-              <div className="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-400/30 px-3.5 py-1.5 rounded-full text-amber-300 text-xs sm:text-sm font-semibold tracking-wide backdrop-blur-sm">
-                <Shield className="w-4 h-4 text-amber-400" />
-                <span>Govt. Regd. Society: S0005492 • Established 1971</span>
+              
+              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6 mb-2">
+                <div className="relative w-24 h-24 sm:w-32 sm:h-32 bg-white rounded-full p-1.5 shadow-2xl shrink-0 flex items-center justify-center border-4 border-amber-400 overflow-hidden">
+                  <img 
+                    src="https://bgdnjmllgeksnpoxykza.supabase.co/storage/v1/object/public/gallery/sdea-logo-1789572632418.webp" 
+                    alt="SDEA WB Logo" 
+                    className="w-full h-full object-contain rounded-full"
+                  />
+                </div>
+                <div className="text-center sm:text-left space-y-2 pt-2">
+                  <div className="text-sm sm:text-base font-semibold tracking-widest text-amber-400 uppercase">
+                    Society For Development Of
+                  </div>
+                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight text-white font-serif">
+                    ENGINEERS' & ARCHITECTS' WEST BENGAL
+                  </h1>
+                  <div className="text-sm sm:text-base text-amber-100/80 font-medium">
+                    (State Diploma Engineers' Association, West Bengal | Founded 1971)
+                  </div>
+                </div>
               </div>
 
-              <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight sm:leading-none font-serif">
-                Unifying <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-amber-500">Engineers & Architects</span> Across West Bengal
-              </h1>
 
               <p className="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl font-light">
                 The apex democratic organization championing <strong className="text-white font-semibold">Pay, Prestige & Promotion</strong> for Sub-Assistant Engineers, Assistant Engineers, and Engineering Officers across PWD, Irrigation & Waterways, PHED, P&RD, and state directorates.
@@ -146,7 +160,7 @@ export default function HomePage() {
       </section>
 
       {/* Key Stats Counter */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-8 -mt-10 sm:-mt-12 relative z-20">
+      <section className="max-w-[100rem] mx-auto px-4 sm:px-8 -mt-10 sm:-mt-12 relative z-20">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 bg-white rounded-2xl shadow-xl p-6 sm:p-8 border border-slate-200">
           <div className="text-center p-3 border-r last:border-0 border-slate-200">
             <div className="text-3xl sm:text-4xl font-black text-brand-900 mb-1">50+</div>
@@ -175,7 +189,7 @@ export default function HomePage() {
       </section>
 
       {/* Main Grid: Urgent Notices & Charter of Demands */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-8">
+      <section className="max-w-[100rem] mx-auto px-4 sm:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
           {/* Left 7 Cols: Notices & Circulars */}
           <div className="lg:col-span-7 space-y-4">
@@ -317,7 +331,7 @@ export default function HomePage() {
 
       {/* Engineering Directorates Showcase */}
       <section className="bg-slate-100 py-14 border-y border-slate-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-8 space-y-8">
+        <div className="max-w-[100rem] mx-auto px-4 sm:px-8 space-y-8">
           <div className="text-center max-w-3xl mx-auto">
             <div className="text-xs font-bold text-brand-700 uppercase tracking-wider mb-1">Statewide Technocrat Wings</div>
             <h2 className="text-2xl sm:text-3xl font-black text-slate-900 font-serif">
@@ -373,7 +387,7 @@ export default function HomePage() {
       </section>
 
       {/* Gallery Spotlight */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-8 space-y-6">
+      <section className="max-w-[100rem] mx-auto px-4 sm:px-8 space-y-6">
         <div className="flex items-center justify-between border-b-2 border-brand-900 pb-2">
           <div>
             <div className="text-xs font-bold text-brand-700 uppercase tracking-wider">Association Activities</div>
@@ -412,7 +426,7 @@ export default function HomePage() {
       </section>
 
       {/* Call to Action Banner */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-8">
+      <section className="max-w-[100rem] mx-auto px-4 sm:px-8">
         <div className="bg-gradient-to-r from-brand-950 via-brand-900 to-amber-950 text-white rounded-2xl p-8 sm:p-12 shadow-2xl border-2 border-amber-500/40 relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="space-y-3 max-w-2xl text-center md:text-left">
             <div className="inline-flex items-center gap-1.5 text-amber-400 text-xs font-bold uppercase tracking-wider">

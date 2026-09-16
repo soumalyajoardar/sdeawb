@@ -16,26 +16,9 @@ export default function Navbar() {
 
   const isCurrent = (path) => pathname === path;
 
-  const [isScrolled, setIsScrolled] = useState(false);
+  
 
-  useEffect(() => {
-    let ticking = false;
-    const handleScroll = () => {
-      if (!ticking) {
-        window.requestAnimationFrame(() => {
-          if (window.scrollY > 250) {
-            setIsScrolled(true);
-          } else if (window.scrollY < 20) {
-            setIsScrolled(false);
-          }
-          ticking = false;
-        });
-        ticking = true;
-      }
-    };
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  
 
   // Don't render public navbar on admin pages
   if (pathname.startsWith('/admin')) {
@@ -46,7 +29,7 @@ export default function Navbar() {
     <header className="w-full bg-white shadow-md sticky top-0 z-50">
       {/* Top Utility Bar */}
       <div className="bg-brand-950 text-slate-200 text-xs py-1.5 px-4 sm:px-8 border-b border-brand-800">
-        <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+        <div className="max-w-[100rem] mx-auto flex flex-wrap justify-between items-center gap-2">
           <div className="flex items-center gap-4 flex-wrap">
             <span className="flex items-center gap-1.5 text-amber-400 font-semibold">
               <Shield className="w-3.5 h-3.5" />
@@ -90,49 +73,13 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Main Branding Header */}
-      <div className={`bg-gradient-to-r from-brand-900 via-brand-800 to-brand-900 text-white px-4 sm:px-8 border-amber-500 overflow-hidden transition-all duration-300 ease-in-out ${isScrolled ? 'max-h-0 opacity-0 border-b-0 py-0' : 'max-h-[500px] opacity-100 border-b-4 py-3'}`}>
-        <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
-          <Link href="/" className="flex items-center gap-3 sm:gap-4 group">
-            <div className="relative w-14 h-14 sm:w-16 sm:h-16 bg-white rounded-full p-1 shadow-lg shrink-0 flex items-center justify-center border-2 border-amber-400 overflow-hidden">
-              <img 
-                src="https://bgdnjmllgeksnpoxykza.supabase.co/storage/v1/object/public/gallery/sdea-logo-1789572632418.webp" 
-                alt="SDEA WB Logo" 
-                className="w-full h-full object-contain rounded-full"
-                onError={(e) => {
-                  e.target.style.display = 'none';
-                }}
-              />
-              <div className="absolute inset-0 flex items-center justify-center font-black text-brand-900 text-xs text-center leading-tight -z-10">
-                SDEA<br/>WB
-              </div>
-            </div>
-            <div>
-              <div className="text-xs sm:text-sm font-semibold tracking-wider text-amber-400 uppercase">
-                Society For Development Of
-              </div>
-              <h1 className="text-lg sm:text-2xl font-black tracking-tight text-white group-hover:text-amber-200 transition font-serif">
-                ENGINEERS’ & ARCHITECTS’ WEST BENGAL
-              </h1>
-              <div className="text-[11px] sm:text-xs text-slate-300 font-light hidden sm:block">
-                (State Diploma Engineers’ Association, West Bengal | Founded 1971)
-              </div>
-            </div>
-          </Link>
-
-          {/* Slogan Banner */}
-          <div className="hidden lg:block text-right">
-            <div className="inline-block bg-brand-950/60 backdrop-blur px-3 py-1.5 rounded-lg border border-brand-700/50 text-right">
-              <div className="text-amber-400 font-bold text-xs">JUSTICE • LIBERTY • EQUALITY • FRATERNITY</div>
-              <div className="text-slate-300 text-[11px]">Pay, Prestige & Promotion for Technocrats</div>
-            </div>
-          </div>
+      
         </div>
       </div>
 
       {/* Main Navigation Bar */}
       <nav className="bg-white border-b border-slate-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-8 flex justify-between items-center">
+        <div className="max-w-[100rem] mx-auto px-4 sm:px-8 flex justify-between items-center">
           {/* Mobile Menu Button - Moved Here */}
           <div className="md:hidden py-2 flex items-center gap-2 text-brand-900 font-bold w-full justify-between">
             <span className="flex items-center gap-2">
