@@ -35,7 +35,7 @@ export default function NoticesPage() {
                 <p className="text-slate-600 text-sm mb-4 leading-relaxed">{notice.description}</p>
                 <div className="flex flex-wrap items-center gap-4 text-xs font-medium text-slate-500">
                   <span>Ref: {notice.noticeNo}</span>
-                  <span>?</span>
+                  <span>&bull;</span>
                   <span>Dept: {notice.department}</span>
                 </div>
               </div>
