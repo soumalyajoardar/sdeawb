@@ -31,7 +31,7 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <div className="w-12 h-12 bg-white rounded-full p-1 flex items-center justify-center border-2 border-amber-400 shrink-0 overflow-hidden">
                 <img 
-                  src="/images/sdea-logo.png" 
+                  src="https://bgdnjmllgeksnpoxykza.supabase.co/storage/v1/object/public/gallery/sdea-logo-1789572632418.webp" 
                   alt="SDEA WB Logo" 
                   className="w-full h-full object-contain rounded-full"
                   onError={(e) => { e.target.style.display = 'none'; }}

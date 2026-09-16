@@ -47,7 +47,7 @@ export default function AdminLoginPage() {
         <div className="bg-brand-900 text-white p-6 sm:p-8 text-center relative border-b-4 border-amber-500">
           <div className="w-16 h-16 bg-white rounded-full p-1 mx-auto mb-3 flex items-center justify-center border-2 border-amber-400 shadow-md overflow-hidden shrink-0">
             <img 
-              src="/images/sdea-logo.png" 
+              src="https://bgdnjmllgeksnpoxykza.supabase.co/storage/v1/object/public/gallery/sdea-logo-1789572632418.webp" 
               alt="SDEA WB Logo" 
               className="w-full h-full object-contain rounded-full"
               onError={(e) => { e.target.style.display = 'none'; }}

@@ -92,7 +92,7 @@ export default function HomePage() {
                   <div className="flex items-center gap-3">
                     <div className="w-12 h-12 bg-white rounded-full p-1 border-2 border-amber-400 flex items-center justify-center overflow-hidden shrink-0">
                       <img 
-                        src="/images/sdea-logo.png" 
+                        src="https://bgdnjmllgeksnpoxykza.supabase.co/storage/v1/object/public/gallery/sdea-logo-1789572632418.webp" 
                         alt="Logo" 
                         className="w-full h-full object-contain rounded-full"
                       />

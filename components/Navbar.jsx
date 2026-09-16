@@ -96,7 +96,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-3 sm:gap-4 group">
             <div className="relative w-14 h-14 sm:w-16 sm:h-16 bg-white rounded-full p-1 shadow-lg shrink-0 flex items-center justify-center border-2 border-amber-400 overflow-hidden">
               <img 
-                src="/images/sdea-logo.png" 
+                src="https://bgdnjmllgeksnpoxykza.supabase.co/storage/v1/object/public/gallery/sdea-logo-1789572632418.webp" 
                 alt="SDEA WB Logo" 
                 className="w-full h-full object-contain rounded-full"
                 onError={(e) => {
@@ -136,7 +136,7 @@ export default function Navbar() {
           {/* Mobile Menu Button - Moved Here */}
           <div className="md:hidden py-2 flex items-center gap-2 text-brand-900 font-bold w-full justify-between">
             <span className="flex items-center gap-2">
-              <img src="/images/sdea-logo.png" className="w-8 h-8 rounded-full border border-amber-500" />
+              <img src="https://bgdnjmllgeksnpoxykza.supabase.co/storage/v1/object/public/gallery/sdea-logo-1789572632418.webp" className="w-8 h-8 rounded-full border border-amber-500" />
               SDEA WB
             </span>
             <button 
