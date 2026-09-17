@@ -6,8 +6,8 @@ import Link from 'next/link';
 import { Shield, Lock, User, ArrowRight, AlertCircle, Eye, EyeOff } from 'lucide-react';
 
 export default function AdminLoginPage() {
-  const [username, setUsername] = useState('admin');
-  const [password, setPassword] = useState('admin');
+  const [username, setUsername] = useState('sdea_admin');
+  const [password, setPassword] = useState('sdea@2026');
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -64,7 +64,7 @@ export default function AdminLoginPage() {
         {/* Form Container */}
         <div className="p-6 sm:p-8 space-y-6">
           <div className="bg-amber-50 border border-amber-200 p-3 rounded-lg text-xs text-amber-900 font-medium">
-            <strong>Default Credentials:</strong> Username: <code className="bg-amber-100 px-1 py-0.5 rounded font-mono">admin</code> | Password: <code className="bg-amber-100 px-1 py-0.5 rounded font-mono">admin</code>
+            <strong>Default Credentials:</strong> Username: <code className="bg-amber-100 px-1 py-0.5 rounded font-mono">sdea_admin</code> | Password: <code className="bg-amber-100 px-1 py-0.5 rounded font-mono">sdea@2026</code>
           </div>
 
           {error && (

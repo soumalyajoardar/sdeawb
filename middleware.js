@@ -11,12 +11,22 @@ export function middleware(request) {
     return NextResponse.next();
   }
 
-  // Check if it's an admin page or a mutating API route
+  // Check if it's an admin page
   const isAdminRoute = pathname.startsWith('/admin');
   const isApiRoute = pathname.startsWith('/api');
-  const isMutatingApi = isApiRoute && ['POST', 'PUT', 'PATCH', 'DELETE'].includes(request.method);
 
-  if (isAdminRoute || isMutatingApi) {
+  // Allow public POST requests to memberships and messages (contact inquiry)
+  const isPublicApiPost = 
+    request.method === 'POST' && 
+    (pathname === '/api/memberships' || pathname === '/api/messages');
+
+  // Mutating API routes requiring admin authentication
+  const isProtectedMutatingApi = 
+    isApiRoute && 
+    !isPublicApiPost && 
+    ['POST', 'PUT', 'PATCH', 'DELETE'].includes(request.method);
+
+  if (isAdminRoute || isProtectedMutatingApi) {
     const session = request.cookies.get('sdea_admin_session');
     
     if (!session || !session.value) {
@@ -37,6 +47,7 @@ export function middleware(request) {
     style-src 'self' 'unsafe-inline';
     img-src 'self' blob: data: https: http:;
     font-src 'self' data:;
+    frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com;
     object-src 'none';
     base-uri 'self';
     form-action 'self';

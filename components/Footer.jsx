@@ -206,7 +206,12 @@ export default function Footer() {
             <span>•</span>
             <Link href="/terms" className="hover:text-slate-200 transition">Terms & Bye-Laws</Link>
             <span>•</span>
-            <Link href="/admin/login" className="text-amber-400 hover:text-amber-300 transition flex items-center gap-1 font-semibold">
+            <Link 
+              href="/admin/login" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-amber-400 hover:text-amber-300 transition flex items-center gap-1 font-semibold"
+            >
               <Lock className="w-3 h-3" />
               <span>Admin Login</span>
             </Link>

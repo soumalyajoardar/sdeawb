@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Users, Plus, Trash2, Edit, Search, MapPin, Building, X } from 'lucide-react';
+import { Users, Plus, Trash2, Edit, Search, MapPin, Building, X, UploadCloud, Camera, Image as ImageIcon } from 'lucide-react';
 
 export default function AdminOfficeBearersPage() {
   const [bearers, setBearers] = useState([]);
@@ -10,6 +10,8 @@ export default function AdminOfficeBearersPage() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedType, setSelectedType] = useState('All');
   const [editingItem, setEditingItem] = useState(null);
+  const [uploading, setUploading] = useState(false);
+  const [uploadProgress, setUploadProgress] = useState(0);
 
   const allDistricts = [
     'State Level',
@@ -30,8 +32,53 @@ export default function AdminOfficeBearersPage() {
     rank: 'Assistant Engineer',
     mobile: '',
     email: '',
+    image: '',
     order: 1
   });
+
+  const handleImageUpload = (file) => {
+    if (!file) return;
+    setUploading(true);
+    setUploadProgress(0);
+
+    const formData = new FormData();
+    formData.append('file', file);
+
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', '/api/upload', true);
+
+    xhr.upload.onprogress = (event) => {
+      if (event.lengthComputable) {
+        const percent = Math.round((event.loaded / event.total) * 100);
+        setUploadProgress(percent);
+      }
+    };
+
+    xhr.onload = () => {
+      setUploading(false);
+      if (xhr.status === 200) {
+        try {
+          const res = JSON.parse(xhr.responseText);
+          if (res.url) {
+            setForm(prev => ({ ...prev, image: res.url }));
+          } else {
+            alert('Upload error: ' + (res.error || 'No URL returned'));
+          }
+        } catch (e) {
+          alert('Upload failed: ' + e.message);
+        }
+      } else {
+        alert('Upload failed. Status: ' + xhr.status);
+      }
+    };
+
+    xhr.onerror = () => {
+      setUploading(false);
+      alert('Upload error occurred during file transmission.');
+    };
+
+    xhr.send(formData);
+  };
 
   const loadBearers = async () => {
     try {
@@ -91,6 +138,7 @@ export default function AdminOfficeBearersPage() {
       rank: 'Assistant Engineer',
       mobile: '',
       email: '',
+      image: '',
       order: bearers.length + 1
     });
     setShowModal(true);
@@ -107,6 +155,7 @@ export default function AdminOfficeBearersPage() {
       rank: b.rank,
       mobile: b.mobile,
       email: b.email,
+      image: b.image || '',
       order: b.order || 1
     });
     setShowModal(true);
@@ -207,7 +256,16 @@ export default function AdminOfficeBearersPage() {
                       {b.designation}
                     </td>
                     <td className="py-3 px-4 font-bold text-slate-900 whitespace-nowrap">
-                      {b.name}
+                      <div className="flex items-center gap-2.5">
+                        {b.image ? (
+                          <img src={b.image} alt={b.name} className="w-8 h-8 rounded-full object-cover border border-amber-400 shrink-0" />
+                        ) : (
+                          <div className="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-slate-500 font-bold text-xs shrink-0">
+                            {b.name?.replace(/^Er\.\s*/i, '').charAt(0) || 'E'}
+                          </div>
+                        )}
+                        <span>{b.name}</span>
+                      </div>
                     </td>
                     <td className="py-3 px-4">
                       <div className="text-slate-800">{b.department}</div>
@@ -255,6 +313,49 @@ export default function AdminOfficeBearersPage() {
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-3 text-xs">
+              {/* Leader Photo Upload */}
+              <div className="bg-slate-50 p-3 rounded-xl border border-slate-200">
+                <label className="block font-bold text-slate-700 mb-2">Office Bearer Photo</label>
+                <div className="flex items-center gap-4">
+                  <div className="relative w-16 h-16 rounded-xl bg-white border-2 border-dashed border-slate-300 flex items-center justify-center overflow-hidden shrink-0">
+                    {form.image ? (
+                      <img src={form.image} alt="Preview" className="w-full h-full object-cover" />
+                    ) : (
+                      <Users className="w-6 h-6 text-slate-400" />
+                    )}
+                  </div>
+
+                  <div className="flex-1 space-y-1.5">
+                    <label className="cursor-pointer inline-flex items-center gap-1.5 bg-white hover:bg-slate-100 text-slate-700 font-bold px-3 py-1.5 rounded-lg border border-slate-300 text-xs shadow-sm transition">
+                      <UploadCloud className="w-4 h-4 text-brand-700" />
+                      <span>{uploading ? `Uploading (${uploadProgress}%)` : form.image ? 'Change Photo' : 'Upload Photo'}</span>
+                      <input 
+                        type="file" 
+                        accept="image/*" 
+                        className="hidden" 
+                        disabled={uploading}
+                        onChange={(e) => {
+                          if (e.target.files && e.target.files[0]) {
+                            handleImageUpload(e.target.files[0]);
+                          }
+                        }} 
+                      />
+                    </label>
+
+                    {form.image && (
+                      <button
+                        type="button"
+                        onClick={() => setForm(prev => ({ ...prev, image: '' }))}
+                        className="block text-[11px] text-rose-600 hover:text-rose-800 font-semibold"
+                      >
+                        Remove Photo
+                      </button>
+                    )}
+                    <p className="text-[10px] text-slate-400">JPG, PNG, or WebP (max 5MB). Auto-compressed to WebP.</p>
+                  </div>
+                </div>
+              </div>
+
               <div className="grid grid-cols-2 gap-3">
                 <div>
                   <label className="block font-bold text-slate-700 mb-1">Committee Tier *</label>

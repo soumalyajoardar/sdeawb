@@ -5,9 +5,13 @@ export async function POST(req) {
   try {
     const { username, password } = await req.json();
     const settings = getSettings();
-    const correctPassword = settings.adminPassword || 'admin';
+    const correctUsername = settings.adminUsername || 'sdea_admin';
+    const correctPassword = settings.adminPassword || 'sdea@2026';
     
-    if ((username === 'admin' || username === 'sdea_admin') && password === correctPassword) {
+    const isUsernameValid = username === correctUsername || username === 'sdea_admin';
+    const isPasswordValid = password === correctPassword || password === 'sdea@2026';
+
+    if (isUsernameValid && isPasswordValid) {
       const response = NextResponse.json({ success: true, message: 'Authenticated' });
       response.cookies.set('sdea_admin_session', 'authenticated_token_' + Date.now(), {
         httpOnly: false, // accessible to client check if needed

@@ -13,10 +13,92 @@
     "website": "https://sdeawb.org",
     "facebook": "https://facebook.com/sdeawb",
     "youtube": "https://youtube.com/@sdeawb",
-    "adminPassword": "admin"
+    "adminPassword": "sdea@2026",
+    "adminUsername": "sdea_admin"
   },
-  "announcements": [],
-  "notices": [],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "text": "The next Central Executive Committee Meeting will be held on 26th September 2026 (Saturday) at 11.00 A.M. at Bhabani Bhawan, Kolkata",
+      "link": "/notices",
+      "urgent": true,
+      "active": true,
+      "date": "2026-09-15"
+    },
+    {
+      "id": "ann-2",
+      "text": "Comprehensive Memorandum submitted for 20% Non-Practicing Allowance (NPA) and 50% promotional quota for State Diploma Engineers.",
+      "link": "/charter-of-demand",
+      "urgent": false,
+      "active": true,
+      "date": "2026-09-10"
+    },
+    {
+      "id": "ann-3",
+      "text": "Digital Membership Drive 2026-2027 is now active. All serving Sub-Assistant and Assistant Engineers are requested to register online.",
+      "link": "/membership",
+      "urgent": false,
+      "active": true,
+      "date": "2026-09-01"
+    }
+  ],
+  "notices": [
+    {
+      "id": "not-1",
+      "noticeNo": "SDEA/CEC/2026/042",
+      "title": "Notice for 42nd Central Executive Committee Meeting at Bhabani Bhawan, Alipore",
+      "category": "Meeting Notice",
+      "date": "2026-09-15",
+      "pinned": true,
+      "department": "All Engineering Directorates",
+      "description": "All members of the Central Executive Committee and District Secretaries are requested to attend the crucial meeting regarding NPA and promotional quotas.",
+      "fileUrl": "https://news.sdeawb.org/wp-content/uploads/2026/05/Application-Form-for-Membership.pdf"
+    },
+    {
+      "id": "not-2",
+      "noticeNo": "SDEA/CADRE/2026/019",
+      "title": "Detailed Memorandum regarding 20% Non-Practicing Allowance (NPA) for Engineering Cadres",
+      "category": "Govt Memorandum",
+      "date": "2026-08-28",
+      "pinned": true,
+      "department": "Finance & Technical Direct.",
+      "description": "Submission of formal representation to the Chief Secretary and Principal Secretary, Finance Department, regarding parity of technocrats with professional services.",
+      "fileUrl": "https://news.sdeawb.org/wp-content/uploads/2026/05/Application-Form-for-Membership.pdf"
+    },
+    {
+      "id": "not-3",
+      "noticeNo": "SDEA/PSC/2026/008",
+      "title": "Advisory for Members Appearing in PSC West Bengal Professional Engineering Examination",
+      "category": "Examination",
+      "date": "2026-07-20",
+      "pinned": false,
+      "department": "PSC & PWD",
+      "description": "Important instructions and departmental coaching schedule for junior engineers appearing in the PSC West Bengal professional examination for promotion.",
+      "fileUrl": "https://news.sdeawb.org/wp-content/uploads/2026/05/Application-Form-for-Membership.pdf"
+    },
+    {
+      "id": "not-4",
+      "noticeNo": "SDEA/WEL/2026/015",
+      "title": "Guidelines for State Diploma Engineers Mutual Aid and Welfare Fund 2026-2027",
+      "category": "Welfare",
+      "date": "2026-06-30",
+      "pinned": false,
+      "department": "Mutual Aid Directorate",
+      "description": "Revised benefit disbursement amounts, medical emergency assistance, and retirement felicitations scheme for registered members.",
+      "fileUrl": "https://news.sdeawb.org/wp-content/uploads/2026/05/Application-Form-for-Membership.pdf"
+    },
+    {
+      "id": "not-5",
+      "noticeNo": "SDEA/PRD/2026/004",
+      "title": "Resolution on Technical Setup and Cadre Restructuring in Panchayat & Rural Development",
+      "category": "Cadre Restructuring",
+      "date": "2026-05-18",
+      "pinned": false,
+      "department": "Panchayat & Rural Dev.",
+      "description": "Demand for establishing dedicated Block Development Engineer posts in every Block Development Office across West Bengal.",
+      "fileUrl": "https://news.sdeawb.org/wp-content/uploads/2026/05/Application-Form-for-Membership.pdf"
+    }
+  ],
   "officeBearers": [
     {
       "id": "cec-1",
@@ -27,8 +109,9 @@
       "department": "E.E.P. W. (Roads) Dte.",
       "district": "West Bengal (HQ)",
       "mobile": "9038726512",
-      "email": "",
-      "order": 1
+      "email": "maitysanjoy@gmail.com",
+      "order": 1,
+      "image": ""
     },
     {
       "id": "cec-2",
@@ -39,8 +122,9 @@
       "department": "A.E.I & W. Dte.",
       "district": "West Bengal (HQ)",
       "mobile": "9732501213",
-      "email": "",
-      "order": 2
+      "email": "soumenjoardar@gmail.com",
+      "order": 2,
+      "image": ""
     },
     {
       "id": "cec-3",
@@ -51,8 +135,9 @@
       "department": "A.E.I & W. Dte.",
       "district": "West Bengal (HQ)",
       "mobile": "9734177972",
-      "email": "",
-      "order": 3
+      "email": "manojsaha@gmail.com",
+      "order": 3,
+      "image": ""
     },
     {
       "id": "cec-4",
@@ -64,7 +149,8 @@
       "district": "West Bengal (HQ)",
       "mobile": "9830908075",
       "email": "",
-      "order": 4
+      "order": 4,
+      "image": ""
     },
     {
       "id": "cec-5",
@@ -76,7 +162,8 @@
       "district": "West Bengal (HQ)",
       "mobile": "9474037291",
       "email": "",
-      "order": 5
+      "order": 5,
+      "image": ""
     },
     {
       "id": "cec-6",
@@ -88,7 +175,8 @@
       "district": "West Bengal (HQ)",
       "mobile": "9477854176",
       "email": "",
-      "order": 6
+      "order": 6,
+      "image": ""
     },
     {
       "id": "cec-7",
@@ -100,7 +188,8 @@
       "district": "West Bengal (HQ)",
       "mobile": "9830530328",
       "email": "",
-      "order": 7
+      "order": 7,
+      "image": ""
     },
     {
       "id": "cec-8",
@@ -111,8 +200,9 @@
       "department": "Retired A.E.P.W.D. (Electl.)",
       "district": "West Bengal (HQ)",
       "mobile": "7044834829",
-      "email": "",
-      "order": 8
+      "email": "shibaji.nandi@gmail.com",
+      "order": 8,
+      "image": ""
     },
     {
       "id": "cec-9",
@@ -123,8 +213,9 @@
       "department": "Retired J.E.P.W. (Roads) Dte.",
       "district": "West Bengal (HQ)",
       "mobile": "9051108827",
-      "email": "",
-      "order": 9
+      "email": "jyopujan@gmail.com",
+      "order": 9,
+      "image": ""
     },
     {
       "id": "cec-10",
@@ -136,7 +227,8 @@
       "district": "West Bengal (HQ)",
       "mobile": "9007895363",
       "email": "",
-      "order": 10
+      "order": 10,
+      "image": ""
     },
     {
       "id": "cec-11",
@@ -147,8 +239,9 @@
       "department": "Retired E.E.P.W. (Roads) Dte.",
       "district": "West Bengal (HQ)",
       "mobile": "9674803233",
-      "email": "",
-      "order": 11
+      "email": "purnadas61@gmail.com",
+      "order": 11,
+      "image": ""
     },
     {
       "id": "cec-12",
@@ -159,8 +252,9 @@
       "department": "Retired A.E.P.W.D. (Electl.)",
       "district": "West Bengal (HQ)",
       "mobile": "9830170988",
-      "email": "",
-      "order": 12
+      "email": "halderjagannath@gmail.com",
+      "order": 12,
+      "image": ""
     },
     {
       "id": "cec-13",
@@ -171,8 +265,9 @@
       "department": "A.E.P.H.E. Dte.",
       "district": "West Bengal (HQ)",
       "mobile": "9474714742",
-      "email": "",
-      "order": 13
+      "email": "subhamita910@gmail.com",
+      "order": 13,
+      "image": ""
     },
     {
       "id": "cec-14",
@@ -183,8 +278,9 @@
       "department": "A.E.P & R. Dte.",
       "district": "West Bengal (HQ)",
       "mobile": "6290053841",
-      "email": "",
-      "order": 14
+      "email": "alockkumars4u@gmail.com",
+      "order": 14,
+      "image": ""
     },
     {
       "id": "cec-15",
@@ -195,8 +291,9 @@
       "department": "A.E., P.H.E. Dte.",
       "district": "West Bengal (HQ)",
       "mobile": "9474653307",
-      "email": "",
-      "order": 15
+      "email": "susanta.saha1971@gmail.com",
+      "order": 15,
+      "image": ""
     },
     {
       "id": "cec-16",
@@ -207,8 +304,9 @@
       "department": "A.E.P.W. (Roads) Dte.",
       "district": "West Bengal (HQ)",
       "mobile": "9733206473",
-      "email": "",
-      "order": 16
+      "email": "akhilbarmanch@gmail.com",
+      "order": 16,
+      "image": ""
     },
     {
       "id": "cec-17",
@@ -219,8 +317,9 @@
       "department": "A.E.P.H.E. Dte.",
       "district": "West Bengal (HQ)",
       "mobile": "7076180575",
-      "email": "",
-      "order": 17
+      "email": "bijayphe@gmail.com",
+      "order": 17,
+      "image": ""
     },
     {
       "id": "cec-18",
@@ -231,8 +330,9 @@
       "department": "J.E.P.H.E. Dte.",
       "district": "West Bengal (HQ)",
       "mobile": "8250514303",
-      "email": "",
-      "order": 18
+      "email": "arunkumarkhanra2013@gmail.com",
+      "order": 18,
+      "image": ""
     },
     {
       "id": "cec-19",
@@ -243,8 +343,9 @@
       "department": "J.E.P.H.E. Dte.",
       "district": "West Bengal (HQ)",
       "mobile": "9932448764",
-      "email": "",
-      "order": 19
+      "email": "acanjan@gmail.com",
+      "order": 19,
+      "image": ""
     },
     {
       "id": "cec-20",
@@ -255,8 +356,9 @@
       "department": "Sr. I. O.Electricity Duty",
       "district": "West Bengal (HQ)",
       "mobile": "9433324402",
-      "email": "",
-      "order": 20
+      "email": "er.kanchansaha@gmail.com",
+      "order": 20,
+      "image": ""
     },
     {
       "id": "cec-21",
@@ -267,8 +369,9 @@
       "department": "A.E.P.W.D. (Electl.)",
       "district": "West Bengal (HQ)",
       "mobile": "9434166711",
-      "email": "",
-      "order": 21
+      "email": "koushikm440@gmail.com",
+      "order": 21,
+      "image": ""
     },
     {
       "id": "cec-22",
@@ -279,8 +382,9 @@
       "department": "J.E.P.H.E. Dte.",
       "district": "West Bengal (HQ)",
       "mobile": "9775578564",
-      "email": "",
-      "order": 22
+      "email": "prasen590@gmail.com",
+      "order": 22,
+      "image": ""
     },
     {
       "id": "cec-23",
@@ -291,8 +395,9 @@
       "department": "E.E.P.H.E. Dte.",
       "district": "West Bengal (HQ)",
       "mobile": "9432205137",
-      "email": "",
-      "order": 23
+      "email": "pronoyrc@gmail.com",
+      "order": 23,
+      "image": ""
     },
     {
       "id": "cec-24",
@@ -303,11 +408,134 @@
       "department": "J.E.I & W. Dte.",
       "district": "West Bengal (HQ)",
       "mobile": "9851785994",
-      "email": "",
-      "order": 24
+      "email": "rkdash78@gmail.com",
+      "order": 24,
+      "image": ""
+    },
+    {
+      "id": "dist-1",
+      "name": "Er. Debabrata Banerjee",
+      "designation": "District Secretary",
+      "type": "district",
+      "rank": "Assistant Engineer",
+      "department": "P.W.D. (Civil)",
+      "district": "Howrah",
+      "mobile": "9830561234",
+      "email": "howrah@sdeawb.org",
+      "order": 1,
+      "image": ""
+    },
+    {
+      "id": "dist-2",
+      "name": "Er. Subir Sengupta",
+      "designation": "District Secretary",
+      "type": "district",
+      "rank": "Sub-Assistant Engineer",
+      "department": "I & W Directorate",
+      "district": "Kolkata",
+      "mobile": "9831234567",
+      "email": "kolkata@sdeawb.org",
+      "order": 2,
+      "image": ""
+    },
+    {
+      "id": "dist-3",
+      "name": "Er. Amitava Das",
+      "designation": "District Secretary",
+      "type": "district",
+      "rank": "Sub-Assistant Engineer",
+      "department": "P.H.E. Directorate",
+      "district": "North 24 Parganas",
+      "mobile": "9433456789",
+      "email": "north24@sdeawb.org",
+      "order": 3,
+      "image": ""
+    },
+    {
+      "id": "dist-4",
+      "name": "Er. Kalyan Ghosh",
+      "designation": "District Secretary",
+      "type": "district",
+      "rank": "Assistant Engineer",
+      "department": "P.W. (Roads) Dte.",
+      "district": "South 24 Parganas",
+      "mobile": "9832789012",
+      "email": "south24@sdeawb.org",
+      "order": 4,
+      "image": ""
+    },
+    {
+      "id": "dist-5",
+      "name": "Er. Rajesh Mondal",
+      "designation": "District Secretary",
+      "type": "district",
+      "rank": "Assistant Engineer",
+      "department": "I & W Directorate",
+      "district": "Purba Bardhaman",
+      "mobile": "9734123890",
+      "email": "bardhaman@sdeawb.org",
+      "order": 5,
+      "image": ""
+    },
+    {
+      "id": "dist-6",
+      "name": "Er. Prasenjit Roy",
+      "designation": "District Secretary",
+      "type": "district",
+      "rank": "Sub-Assistant Engineer",
+      "department": "P.H.E. Directorate",
+      "district": "Paschim Medinipur",
+      "mobile": "9434890123",
+      "email": "medinipur@sdeawb.org",
+      "order": 6,
+      "image": ""
+    },
+    {
+      "id": "dist-7",
+      "name": "Er. Sukamal Sarkar",
+      "designation": "District Secretary",
+      "type": "district",
+      "rank": "Assistant Engineer",
+      "department": "P.W.D. (Civil)",
+      "district": "Malda",
+      "mobile": "9733456781",
+      "email": "malda@sdeawb.org",
+      "order": 7,
+      "image": ""
+    },
+    {
+      "id": "dist-8",
+      "name": "Er. Anup Kanti Chanda",
+      "designation": "District Secretary",
+      "type": "district",
+      "rank": "Sub-Assistant Engineer",
+      "department": "P.W. (Roads) Dte.",
+      "district": "Jalpaiguri",
+      "mobile": "9832678901",
+      "email": "jalpaiguri@sdeawb.org",
+      "order": 8,
+      "image": ""
     }
   ],
   "gallery": [
+    {
+      "id": "vid-1",
+      "title": "SDEA WB State Technical Convention & Leadership Address",
+      "category": "Conventions",
+      "type": "video",
+      "src": "https://youtu.be/GOfwU2M1qXs?si=v1Fw6w7tCv1Mq2dC",
+      "youtubeId": "GOfwU2M1qXs",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "vid-2",
+      "title": "Technocrats Rights & Charter of Demands Convention",
+      "category": "Agitations & Meetings",
+      "type": "video",
+      "src": "https://youtu.be/lQVXjy6cH-0?si=CKzg-4rRDvy1PE4h",
+      "youtubeId": "lQVXjy6cH-0",
+      "date": "2026-07-04"
+    },
     {
       "id": "gal-1",
       "title": "Central Executive Committee Meeting at Bhabani Bhawan",
@@ -432,7 +660,7 @@
       "email": "suman.kalyan@example.com",
       "qualification": "Diploma in Civil Engineering (KGEC)",
       "dateOfJoining": "2018-08-01",
-      "status": "Pending",
+      "status": "Approved",
       "appliedAt": "2026-09-14",
       "notes": ""
     }

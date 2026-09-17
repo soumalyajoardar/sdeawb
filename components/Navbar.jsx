@@ -65,6 +65,8 @@ export default function Navbar() {
             <span className="text-slate-500">|</span>
             <Link 
               href="/admin/login" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-slate-300 hover:text-white transition flex items-center gap-1 font-medium"
             >
               <span>Admin Portal</span>
@@ -212,6 +214,8 @@ export default function Navbar() {
             <div className="pt-2 border-t border-slate-200">
               <Link 
                 href="/admin/login" 
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block px-3 py-2 rounded bg-brand-900 text-white font-bold text-center mt-2"
               >
