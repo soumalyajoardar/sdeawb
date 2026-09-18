@@ -100,6 +100,12 @@ export default function Footer() {
                   <span>Photo & Video Gallery</span>
                 </Link>
               </li>
+              <li>
+                <Link href="/legacy-member" className="hover:text-amber-400 transition flex items-center gap-1.5 text-amber-300 font-semibold">
+                  <ChevronRight className="w-3.5 h-3.5 text-amber-400" />
+                  <span>Legacy Member Digitization</span>
+                </Link>
+              </li>
             </ul>
           </div>
 

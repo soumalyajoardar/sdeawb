@@ -519,6 +519,334 @@
   ],
   "gallery": [
     {
+      "id": "gal-album-1-1",
+      "title": "Technical Session – 2026 at Tamluk, Purba Medinipur. (Photo 1)",
+      "category": "Technical Sessions",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.43.29-PM-1-1024x576.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-1-2",
+      "title": "Technical Session – 2026 at Tamluk, Purba Medinipur. (Photo 2)",
+      "category": "Technical Sessions",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.43.29-PM-1024x576.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-1-3",
+      "title": "Technical Session – 2026 at Tamluk, Purba Medinipur. (Photo 3)",
+      "category": "Technical Sessions",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.43.28-PM-2-1024x576.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-1-4",
+      "title": "Technical Session – 2026 at Tamluk, Purba Medinipur. (Photo 4)",
+      "category": "Technical Sessions",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.43.28-PM-1-1024x576.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-1-5",
+      "title": "Technical Session – 2026 at Tamluk, Purba Medinipur. (Photo 5)",
+      "category": "Technical Sessions",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.43.28-PM-1024x576.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-1-6",
+      "title": "Technical Session – 2026 at Tamluk, Purba Medinipur. (Photo 6)",
+      "category": "Technical Sessions",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.43.27-PM-1024x771.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-1-7",
+      "title": "Technical Session – 2026 at Tamluk, Purba Medinipur. (Photo 7)",
+      "category": "Technical Sessions",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.43.26-PM-1-1024x768.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-1-8",
+      "title": "Technical Session – 2026 at Tamluk, Purba Medinipur. (Photo 8)",
+      "category": "Technical Sessions",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.43.26-PM-1024x576.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-1-9",
+      "title": "Technical Session – 2026 at Tamluk, Purba Medinipur. (Photo 9)",
+      "category": "Technical Sessions",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.43.25-PM-1-1024x576.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-1-10",
+      "title": "Technical Session – 2026 at Tamluk, Purba Medinipur. (Photo 10)",
+      "category": "Technical Sessions",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.43.25-PM-1024x576.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-2-1",
+      "title": "55-56th Biennial State Conference at BM Grand, Malda, West Bengal. (Photo 1)",
+      "category": "Biennial Conferences",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.38.27-PM-1-1024x576.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-2-2",
+      "title": "55-56th Biennial State Conference at BM Grand, Malda, West Bengal. (Photo 2)",
+      "category": "Biennial Conferences",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.38.27-PM-1024x576.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-2-3",
+      "title": "55-56th Biennial State Conference at BM Grand, Malda, West Bengal. (Photo 3)",
+      "category": "Biennial Conferences",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.38.26-PM-2-1024x576.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-2-4",
+      "title": "55-56th Biennial State Conference at BM Grand, Malda, West Bengal. (Photo 4)",
+      "category": "Biennial Conferences",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.38.26-PM-1-1024x576.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-2-5",
+      "title": "55-56th Biennial State Conference at BM Grand, Malda, West Bengal. (Photo 5)",
+      "category": "Biennial Conferences",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.38.26-PM-1024x576.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-2-6",
+      "title": "55-56th Biennial State Conference at BM Grand, Malda, West Bengal. (Photo 6)",
+      "category": "Biennial Conferences",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.38.25-PM-3-1024x576.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-2-7",
+      "title": "55-56th Biennial State Conference at BM Grand, Malda, West Bengal. (Photo 7)",
+      "category": "Biennial Conferences",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.38.25-PM-2-1024x576.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-3-1",
+      "title": "Preparatory VIVA session for Mechanical Junior Engineer  at Samity Bhaban of SDEA , Baghuhati. (Photo 1)",
+      "category": "Viva & Training",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.30.24-PM.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-3-2",
+      "title": "Preparatory VIVA session for Mechanical Junior Engineer  at Samity Bhaban of SDEA , Baghuhati. (Photo 2)",
+      "category": "Viva & Training",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.30.25-PM.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-3-3",
+      "title": "Preparatory VIVA session for Mechanical Junior Engineer  at Samity Bhaban of SDEA , Baghuhati. (Photo 3)",
+      "category": "Viva & Training",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.30.24-PM-2.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-3-4",
+      "title": "Preparatory VIVA session for Mechanical Junior Engineer  at Samity Bhaban of SDEA , Baghuhati. (Photo 4)",
+      "category": "Viva & Training",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.30.24-PM-1.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-4-1",
+      "title": "PSC Preparatory Training (Photo 1)",
+      "category": "PSC Training",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.21.02-PM.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-4-2",
+      "title": "PSC Preparatory Training (Photo 2)",
+      "category": "PSC Training",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.21.01-PM.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-4-3",
+      "title": "PSC Preparatory Training (Photo 3)",
+      "category": "PSC Training",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.21.00-PM.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-4-4",
+      "title": "PSC Preparatory Training (Photo 4)",
+      "category": "PSC Training",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.20.59-PM.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-4-5",
+      "title": "PSC Preparatory Training (Photo 5)",
+      "category": "PSC Training",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.20.58-PM-1.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-4-6",
+      "title": "PSC Preparatory Training (Photo 6)",
+      "category": "PSC Training",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.20.58-PM.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-4-7",
+      "title": "PSC Preparatory Training (Photo 7)",
+      "category": "PSC Training",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.20.57-PM.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-4-8",
+      "title": "PSC Preparatory Training (Photo 8)",
+      "category": "PSC Training",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-12.20.56-PM.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-5-1",
+      "title": "Engineers’ Day (Photo 1)",
+      "category": "Engineers' Day",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-11.55.24-AM-1024x768.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-5-2",
+      "title": "Engineers’ Day (Photo 2)",
+      "category": "Engineers' Day",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-11.55.23-AM-1-1024x576.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-5-3",
+      "title": "Engineers’ Day (Photo 3)",
+      "category": "Engineers' Day",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-11.55.23-AM-1024x576.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-5-4",
+      "title": "Engineers’ Day (Photo 4)",
+      "category": "Engineers' Day",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-11.55.22-AM-3-1024x768.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-5-5",
+      "title": "Engineers’ Day (Photo 5)",
+      "category": "Engineers' Day",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-11.55.22-AM-2-576x1024.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-5-6",
+      "title": "Engineers’ Day (Photo 6)",
+      "category": "Engineers' Day",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-11.55.22-AM-768x1024.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-5-7",
+      "title": "Engineers’ Day (Photo 7)",
+      "category": "Engineers' Day",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-11.55.21-AM-2-1024x770.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-5-8",
+      "title": "Engineers’ Day (Photo 8)",
+      "category": "Engineers' Day",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-11.55.21-AM-1-1024x768.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-5-9",
+      "title": "Engineers’ Day (Photo 9)",
+      "category": "Engineers' Day",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-11.55.21-AM-1024x768.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-5-10",
+      "title": "Engineers’ Day (Photo 10)",
+      "category": "Engineers' Day",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-11.55.16-AM-1024x768.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-5-11",
+      "title": "Engineers’ Day (Photo 11)",
+      "category": "Engineers' Day",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-11.55.15-AM-1-1024x768.jpeg",
+      "date": "2026-06-20"
+    },
+    {
+      "id": "gal-album-5-12",
+      "title": "Engineers’ Day (Photo 12)",
+      "category": "Engineers' Day",
+      "type": "image",
+      "src": "https://sdeawb.org/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-20-at-11.55.15-AM-1024x770.jpeg",
+      "date": "2026-06-20"
+    },
+    {
       "id": "vid-1",
       "title": "SDEA WB State Technical Convention & Leadership Address",
       "category": "Conventions",
@@ -687,6 +1015,74 @@
       "message": "Requesting clarification on the recent circular regarding inter-se seniority calculation for SAEs promoted to AE in P.W. (Roads) Directorate.",
       "date": "2026-09-11",
       "status": "resolved"
+    }
+  ],
+  "legacyMembers": [
+    {
+      "id": "leg-101",
+      "membershipId": "1042",
+      "entryYear": "2012",
+      "paidUpYear": "2026",
+      "fullName": "Er. Tarun Kumar Biswas",
+      "designation": "Assistant Engineer",
+      "department": "Public Works (Roads) Directorate",
+      "postingOffice": "Alipore Highway Division, Bhabani Bhawan, Kolkata",
+      "district": "Kolkata",
+      "hrmsId": "1998012345",
+      "gpfNo": "PWD/CIVIL/8942",
+      "mobile": "9830112233",
+      "email": "tarunkumar.biswas@gmail.com",
+      "address": "45/2 Lake Gardens, Kolkata - 700045",
+      "qualification": "Diploma in Civil Engineering (APC Roy Polytechnic, 1996)",
+      "joiningDate": "1998-05-15",
+      "remarks": "Physical Membership Book #042 verified with Central Registry.",
+      "status": "Verified",
+      "submittedAt": "2026-09-05",
+      "adminNotes": "Verified against Physical SDEA Roll 2012."
+    },
+    {
+      "id": "leg-102",
+      "membershipId": "0876",
+      "entryYear": "2016",
+      "paidUpYear": "2025",
+      "fullName": "Er. Sourav Chatterjee",
+      "designation": "Sub-Assistant Engineer",
+      "department": "Irrigation & Waterways Directorate",
+      "postingOffice": "Damodar Canal Division, Court Compound, Bardhaman",
+      "district": "Purba Bardhaman",
+      "hrmsId": "2014056789",
+      "gpfNo": "IW/CANAL/5512",
+      "mobile": "9734556677",
+      "email": "sourav.chatterjee.wb@gmail.com",
+      "address": "Vivekananda Pally, Burdwan - 713101",
+      "qualification": "Diploma in Civil Engineering (MBB Inst. of Tech, 2013)",
+      "joiningDate": "2014-11-20",
+      "remarks": "Annual subscription paid up to 2025.",
+      "status": "Pending Verification",
+      "submittedAt": "2026-09-12",
+      "adminNotes": "Pending district secretary counter-signature."
+    },
+    {
+      "id": "leg-103",
+      "membershipId": "2190",
+      "entryYear": "2008",
+      "paidUpYear": "2026",
+      "fullName": "Er. Anindya Roy",
+      "designation": "Executive Engineer",
+      "department": "Public Health Engineering Directorate (PHED)",
+      "postingOffice": "Barasat Water Supply Division, Barasat",
+      "district": "North 24 Parganas",
+      "hrmsId": "1995087654",
+      "gpfNo": "PHE/ENG/3301",
+      "mobile": "9433221100",
+      "email": "anindya.roy.phed@wb.gov.in",
+      "address": "12 Pioneer Park, Barasat, Kolkata - 700124",
+      "qualification": "B.E. (Civil) / Dip. Civil (North Calcutta Poly, 1994)",
+      "joiningDate": "1995-09-01",
+      "remarks": "Life Member / Regular CEC attendee.",
+      "status": "Verified",
+      "submittedAt": "2026-09-01",
+      "adminNotes": "Confirmed by CEC IT Secretary."
     }
   ]
 }

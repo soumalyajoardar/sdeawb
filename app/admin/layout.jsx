@@ -6,7 +6,7 @@ import { usePathname, useRouter } from 'next/navigation';
 import { 
   LayoutDashboard, FileText, Bell, Users, UserCheck, 
   Mail, Image as ImageIcon, Settings, LogOut, ExternalLink, 
-  Menu, X, Shield, ChevronRight 
+  Menu, X, Shield, ChevronRight, Landmark 
 } from 'lucide-react';
 
 export default function AdminLayout({ children }) {
@@ -25,6 +25,7 @@ export default function AdminLayout({ children }) {
     { label: 'Marquee Ticker', href: '/admin/announcements', icon: Bell },
     { label: 'Office Bearers', href: '/admin/office-bearers', icon: Users },
     { label: 'Membership Apps', href: '/admin/memberships', icon: UserCheck },
+    { label: 'Legacy Members', href: '/admin/legacy-members', icon: Landmark },
     { label: 'Messages & Grievances', href: '/admin/messages', icon: Mail },
     { label: 'Gallery Media', href: '/admin/gallery', icon: ImageIcon },
     { label: 'Site Settings', href: '/admin/settings', icon: Settings },

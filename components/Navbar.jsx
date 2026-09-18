@@ -56,6 +56,13 @@ export default function Navbar() {
               <span>New Membership</span>
             </Link>
             <Link 
+              href="/legacy-member" 
+              className="hover:text-amber-400 transition flex items-center gap-1 font-medium text-amber-300"
+            >
+              <Landmark className="w-3 h-3" />
+              <span>Legacy Member</span>
+            </Link>
+            <Link 
               href="/member-login" 
               className="hover:text-amber-400 transition flex items-center gap-1 font-medium"
             >
@@ -203,6 +210,13 @@ export default function Navbar() {
               className="block px-3 py-2 rounded bg-amber-100 text-amber-900 font-bold"
             >
               Online Membership Application
+            </Link>
+            <Link 
+              href="/legacy-member" 
+              onClick={() => setMobileMenuOpen(false)}
+              className="block px-3 py-2 rounded bg-brand-50 text-brand-900 font-bold border border-brand-200"
+            >
+              Legacy Member Digitization
             </Link>
             <Link 
               href="/contact" 

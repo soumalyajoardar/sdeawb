@@ -9,12 +9,23 @@ export default function GalleryClient({ items = [] }) {
 
   const categories = [
     { id: 'all', label: 'All Media' },
-    { id: 'video', label: 'Official Videos' },
+    { id: 'Technical Sessions', label: 'Technical Sessions' },
+    { id: 'Biennial Conferences', label: 'Biennial Conferences' },
+    { id: "Engineers' Day", label: "Engineers' Day" },
+    { id: 'PSC Training', label: 'PSC Training' },
+    { id: 'Viva & Training', label: 'Viva & Training' },
     { id: 'Conventions', label: 'Conventions' },
     { id: 'CEC Meetings', label: 'CEC Meetings' },
     { id: 'Agitations & Meetings', label: 'Agitations & Demands' },
     { id: 'Social Initiatives', label: 'Social Welfare' },
+    { id: 'video', label: 'Official Videos' },
   ];
+
+  const getCount = (tabId) => {
+    if (tabId === 'all') return items.length;
+    if (tabId === 'video') return items.filter(i => i.type === 'video').length;
+    return items.filter(i => i.category === tabId).length;
+  };
 
   const filteredItems = items.filter((item) => {
     if (activeTab === 'all') return true;
@@ -29,19 +40,27 @@ export default function GalleryClient({ items = [] }) {
     <div className="space-y-10">
       {/* Filter Tabs */}
       <div className="flex flex-wrap items-center gap-2 pb-2">
-        {categories.map((tab) => (
-          <button
-            key={tab.id}
-            onClick={() => setActiveTab(tab.id)}
-            className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition ${
-              activeTab === tab.id
-                ? 'bg-brand-950 text-amber-400 shadow-md border-b-2 border-amber-400'
-                : 'bg-white text-slate-600 hover:text-slate-900 border border-slate-200 hover:bg-slate-50'
-            }`}
-          >
-            {tab.label}
-          </button>
-        ))}
+        {categories.filter(c => getCount(c.id) > 0 || c.id === 'all').map((tab) => {
+          const count = getCount(tab.id);
+          return (
+            <button
+              key={tab.id}
+              onClick={() => setActiveTab(tab.id)}
+              className={`px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition flex items-center gap-1.5 ${
+                activeTab === tab.id
+                  ? 'bg-brand-950 text-amber-400 shadow-md border-b-2 border-amber-400'
+                  : 'bg-white text-slate-600 hover:text-slate-900 border border-slate-200 hover:bg-slate-50'
+              }`}
+            >
+              <span>{tab.label}</span>
+              <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-semibold ${
+                activeTab === tab.id ? 'bg-amber-400/20 text-amber-300' : 'bg-slate-100 text-slate-500'
+              }`}>
+                {count}
+              </span>
+            </button>
+          );
+        })}
       </div>
 
       {/* Videos Section (if any in filtered) */}

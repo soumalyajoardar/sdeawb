@@ -116,9 +116,6 @@ export default function HomePage() {
                       <div className="text-white font-bold text-sm">Leadership Desk</div>
                     </div>
                   </div>
-                  <span className="bg-emerald-500/20 text-emerald-400 text-[10px] font-bold px-2.5 py-0.5 rounded-full border border-emerald-500/30">
-                    Active 2026-27
-                  </span>
                 </div>
 
                 <div className="space-y-3 text-xs text-slate-300">

@@ -15,10 +15,10 @@ export function middleware(request) {
   const isAdminRoute = pathname.startsWith('/admin');
   const isApiRoute = pathname.startsWith('/api');
 
-  // Allow public POST requests to memberships and messages (contact inquiry)
+  // Allow public POST requests to memberships, legacy members, and messages (contact inquiry)
   const isPublicApiPost = 
     request.method === 'POST' && 
-    (pathname === '/api/memberships' || pathname === '/api/messages');
+    (pathname === '/api/memberships' || pathname === '/api/messages' || pathname === '/api/legacy-members');
 
   // Mutating API routes requiring admin authentication
   const isProtectedMutatingApi = 

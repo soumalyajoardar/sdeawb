@@ -76,7 +76,17 @@ export default function AdminGalleryPage() {
     }
   };
 
-  const categories = ['CEC Meetings', 'Conventions', 'Agitations & Meetings', 'Social Initiatives'];
+  const categories = [
+    'Technical Sessions',
+    'Biennial Conferences',
+    "Engineers' Day",
+    'PSC Training',
+    'Viva & Training',
+    'CEC Meetings',
+    'Conventions',
+    'Agitations & Meetings',
+    'Social Initiatives'
+  ];
 
   const loadGallery = async () => {
     try {

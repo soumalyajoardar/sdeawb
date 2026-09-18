@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { 
   LayoutDashboard, FileText, Bell, Users, UserCheck, 
   Mail, Image as ImageIcon, ArrowRight, CheckCircle2, XCircle, 
-  Clock, AlertCircle, Plus, Eye 
+  Clock, AlertCircle, Plus, Eye, Landmark 
 } from 'lucide-react';
 
 export default function AdminDashboardPage() {
@@ -14,6 +14,7 @@ export default function AdminDashboardPage() {
     announcements: 0,
     bearers: 0,
     memberships: [],
+    legacyMembers: [],
     messages: [],
     gallery: 0
   });
@@ -21,20 +22,22 @@ export default function AdminDashboardPage() {
 
   const loadAll = async () => {
     try {
-      const [noticesRes, annRes, bearersRes, memRes, msgRes, galRes] = await Promise.all([
+      const [noticesRes, annRes, bearersRes, memRes, legRes, msgRes, galRes] = await Promise.all([
         fetch('/api/notices'),
         fetch('/api/announcements'),
         fetch('/api/office-bearers'),
         fetch('/api/memberships'),
+        fetch('/api/legacy-members'),
         fetch('/api/messages'),
         fetch('/api/gallery')
       ]);
 
-      const [notices, announcements, bearers, memberships, messages, gallery] = await Promise.all([
+      const [notices, announcements, bearers, memberships, legacyMembers, messages, gallery] = await Promise.all([
         noticesRes.json(),
         annRes.json(),
         bearersRes.json(),
         memRes.json(),
+        legRes.json(),
         msgRes.json(),
         galRes.json()
       ]);
@@ -44,6 +47,7 @@ export default function AdminDashboardPage() {
         announcements: announcements.length || 0,
         bearers: bearers.length || 0,
         memberships: memberships || [],
+        legacyMembers: legacyMembers || [],
         messages: messages || [],
         gallery: gallery.length || 0
       });
@@ -113,11 +117,18 @@ export default function AdminDashboardPage() {
           >
             <span>Update Ticker</span>
           </Link>
+          <Link
+            href="/admin/legacy-members"
+            className="bg-amber-400/20 hover:bg-amber-400/30 text-amber-300 font-semibold px-4 py-2 rounded-lg text-xs transition border border-amber-400/30 flex items-center gap-1.5"
+          >
+            <Landmark className="w-3.5 h-3.5" />
+            <span>Legacy Desk</span>
+          </Link>
         </div>
       </div>
 
       {/* Metric Counters */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+      <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6">
         <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex items-center gap-4">
           <div className="w-12 h-12 bg-amber-50 text-amber-600 rounded-xl flex items-center justify-center shrink-0">
             <UserCheck className="w-6 h-6" />
@@ -127,6 +138,19 @@ export default function AdminDashboardPage() {
             <div className="text-xs font-bold text-slate-500 uppercase tracking-wide">Pending Apps</div>
           </div>
         </div>
+
+        <Link 
+          href="/admin/legacy-members" 
+          className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex items-center gap-4 hover:border-amber-400 hover:shadow-md transition"
+        >
+          <div className="w-12 h-12 bg-amber-50 text-brand-900 rounded-xl flex items-center justify-center shrink-0">
+            <Landmark className="w-6 h-6 text-amber-600" />
+          </div>
+          <div>
+            <div className="text-2xl font-black text-slate-900">{stats.legacyMembers?.length || 0}</div>
+            <div className="text-xs font-bold text-slate-500 uppercase tracking-wide">Legacy Records</div>
+          </div>
+        </Link>
 
         <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm flex items-center gap-4">
           <div className="w-12 h-12 bg-blue-50 text-brand-700 rounded-xl flex items-center justify-center shrink-0">
